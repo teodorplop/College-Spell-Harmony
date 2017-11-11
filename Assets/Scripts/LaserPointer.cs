@@ -19,6 +19,8 @@ public class LaserPointer : MonoBehaviour {
     public LayerMask teleportMask;
     private bool shouldTeleport;
 
+    private GameObject gameObjectHit;
+
     private SteamVR_Controller.Device Controller {
         get { return SteamVR_Controller.Input((int)trackedObj.index); }
     }
@@ -46,6 +48,8 @@ public class LaserPointer : MonoBehaviour {
     private void HideLaser() {
         laser.SetActive(false);
         reticle.SetActive(false);
+
+        gameObjectHit = null;
     }
 
     private void Teleport() {
@@ -66,6 +70,8 @@ public class LaserPointer : MonoBehaviour {
                 reticle.SetActive(true);
                 teleportReticleTransform.position = hitPoint + teleportReticleOffset;
                 shouldTeleport = true;
+
+                gameObjectHit = hit.collider.gameObject;
             } else {
                 HideLaser();
             }
@@ -75,6 +81,12 @@ public class LaserPointer : MonoBehaviour {
 
         if (Controller.GetPressUp(SteamVR_Controller.ButtonMask.Touchpad) && shouldTeleport) {
             Teleport();
+        }
+
+        if (Controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger)) {
+            AnimationHandlerScript scr = gameObjectHit.GetComponent<AnimationHandlerScript>();
+            if (scr != null)
+                scr.Triggered();
         }
     }
 }

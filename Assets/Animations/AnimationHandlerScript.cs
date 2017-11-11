@@ -5,6 +5,7 @@ public class AnimationHandlerScript : MonoBehaviour {
 	
 	private Animator DoorAnimator = null;
 	private bool ButtonPressed = false;
+    private bool isOpened = false;
 
     void Start () 
 	{
@@ -13,6 +14,11 @@ public class AnimationHandlerScript : MonoBehaviour {
 		ButtonPressed = false;
 	}
 	
+    public void Triggered()
+    {
+        DoorAnimator.SetBool("isOpen", isOpened = !isOpened);
+    }
+
 	void Update () 
 	{
 		if (Input.GetKeyDown(KeyCode.E))
