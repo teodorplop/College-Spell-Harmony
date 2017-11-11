@@ -3,7 +3,7 @@ guid: b3cb8a84ea51b1f498e999bbc03e6fce
 timeCreated: 1477301353
 licenseType: Free
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: acoperis_ECuri
     100002: acoperis_ECuri3
@@ -13743,36 +13743,150 @@ ModelImporter:
     4305414: salaEC10595
     4305416: profil_usa_eg_03
     9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: acoperis_ec_exterior_1Material
+    second: {fileID: 2100000, guid: 54d9fb626026f97459af775649d9af5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: acoperis_izolatie_1Material
+    second: {fileID: 2100000, guid: e5169c292a5da5d44b1d986bbe48b384, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: banca_1Material
+    second: {fileID: 2100000, guid: d9a7082cb5eb0da4f97196485e1c7af8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bricks_interior_1Material
+    second: {fileID: 2100000, guid: 2e918667fe868104b996b4931f76ef27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: caramizi_exterior_1Material
+    second: {fileID: 2100000, guid: 6b4f0c82c13d05c4a8eea0fe99f58c0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: caterdra_1Material
+    second: {fileID: 2100000, guid: 4562105283717bc47bff228de9b2dd94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_1Material
+    second: {fileID: 2100000, guid: f7a646fe2e24f1a478294e6a3a1bdf1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ec002floor_1Material
+    second: {fileID: 2100000, guid: 4c352c3853f12874ba80488721ef23dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ec004floors_1Material
+    second: {fileID: 2100000, guid: dd9a9085c3591b24ba81de1956080534, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: f1f566fac293e20449de1f16ee292c85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: perete_alb_calcaros_1Material
+    second: {fileID: 2100000, guid: d3bf64a84b156094b82a751258f6d8ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: perete_alb_fin_2Material
+    second: {fileID: 2100000, guid: f3bf919a19bc4bb409b7823139b0d541, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: perete_beton_2Material
+    second: {fileID: 2100000, guid: cd09b1343621fa94db328bfed9e6ed1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: perete_semi_1Material
+    second: {fileID: 2100000, guid: 0e925d89123c2e147b945e3f69dadfa4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: podea_ec_etaj_1Material
+    second: {fileID: 2100000, guid: 8e9ab66096be4064a9c48cc0ac6bc8c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: podea_ec_margini_1Material
+    second: {fileID: 2100000, guid: a5a340fc0216cc5488603a577dca4e97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: podea_ec_mid_1Material
+    second: {fileID: 2100000, guid: bec2343110a9a7c4d8dc4a897784f31f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: podea_ec_simpla_1Material
+    second: {fileID: 2100000, guid: cc09062a61d8f2944827880bedcdfb9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scaun_catedra_ec004_1Material
+    second: {fileID: 2100000, guid: 4f2d6fa173ea80c48a58e54dd328eca1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: termopan_alb_1Material
+    second: {fileID: 2100000, guid: cbebe475f9bc4dd4ab175bb3702e09f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: termopan_alb_small_1Material
+    second: {fileID: 2100000, guid: 5f0d4c2884222794797dac310443284e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 3
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
@@ -13786,9 +13900,11 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-  importAnimation: 1
+    normalCalculationMode: 0
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -13799,9 +13915,12 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
