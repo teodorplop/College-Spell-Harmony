@@ -36,6 +36,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4480999998731648}
+  - component: {fileID: 65124962480558196}
+  - component: {fileID: 114870178014858218}
   m_Layer: 0
   m_Name: IcePortal
   m_TagString: Untagged
@@ -194,6 +196,30 @@ Transform:
   m_Father: {fileID: 4495088461628634}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!65 &65124962480558196
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1471110959154588}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3677044, y: 2.8353748, z: 1.8992577}
+  m_Center: {x: -0.14719677, y: -0.01211834, z: -0.13952065}
+--- !u!114 &114870178014858218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1471110959154588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00de685f9a3fa264983a104224cc13bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneLoaded: Winter
 --- !u!198 &198059491138797026
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -254,7 +280,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1851692722
+  randomSeed: 1990565579
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3571,7 +3597,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 391040022
+  randomSeed: -380445118
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -10205,7 +10231,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -825068848
+  randomSeed: 1494548273
   InitialModule:
     serializedVersion: 3
     enabled: 1

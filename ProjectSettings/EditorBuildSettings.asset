@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/UPB.unity
+    guid: 930732c04d398e9489ffcc01c2a746c9
+  - enabled: 1
+    path: Assets/Scenes/UI.unity
+    guid: 2a0116ff1eb71b24cbbfa5cde9939f36
+  - enabled: 1
+    path: Assets/Scenes/Winter.unity
+    guid: 6900a00cf86d7524ab61e116d03b8e5f

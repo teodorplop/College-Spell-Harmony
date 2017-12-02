@@ -1,0 +1,3 @@
+{
+	"STR_INTERACTABLE_PORTAL": "Press F to use portal."
+}
