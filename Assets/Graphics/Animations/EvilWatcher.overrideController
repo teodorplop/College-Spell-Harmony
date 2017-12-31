@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: EvilWatcher
+  m_Controller: {fileID: 9100000, guid: 1f7a68d8e931dfe4f9f6f48b5545b858, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400008, guid: dd11187f8bddf9c4f9d30f23a083fc62, type: 3}
+    m_OverrideClip: {fileID: 7400006, guid: bb18a191cdc70ba4ab4233b4edccd52a, type: 3}
+  - m_OriginalClip: {fileID: 7400010, guid: dd11187f8bddf9c4f9d30f23a083fc62, type: 3}
+    m_OverrideClip: {fileID: 7400002, guid: bb18a191cdc70ba4ab4233b4edccd52a, type: 3}
+  - m_OriginalClip: {fileID: 7400004, guid: dd11187f8bddf9c4f9d30f23a083fc62, type: 3}
+    m_OverrideClip: {fileID: 7400010, guid: bb18a191cdc70ba4ab4233b4edccd52a, type: 3}
