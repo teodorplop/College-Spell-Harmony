@@ -11,14 +11,35 @@ public class QuestManager {
 		}
 	}
 
+	public int QuestIdx { get { return questIdx; } }
+
 	[SerializeField] private int questIdx;
 	private List<string> quests;
 
 	public QuestManager() {
-		quests = new List<string>() { "Find the great wizard" };
+		quests = new List<string>() {
+			"Head into the main hall",
+			"Enter the training room"
+		};
+	}
+
+	public void ReachedMainHall() {
+		// well, kind of ugly but fuck it.
+		if (questIdx == 0) {
+			EventManager.Raise(new QuestCompleted(0));
+			++questIdx;
+		}
+	}
+
+	public string GetQuest(int id) {
+		return quests[id];
 	}
 
 	public string GetActiveQuest() {
 		return quests[questIdx];
+	}
+
+	public void Load(SaveGame save) {
+
 	}
 }

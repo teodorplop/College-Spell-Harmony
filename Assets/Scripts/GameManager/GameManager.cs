@@ -20,6 +20,8 @@ public partial class GameManager : StateMachineBase {
 		ManageVR();
 	}
 	IEnumerator Start() {
+		ManageSave();
+
 		uiManager = FindObjectOfType<UIManager>();
 		if (uiManager == null) {
 			AsyncOperation loadUI = SceneManager.LoadSceneAsync("UI", LoadSceneMode.Additive);
@@ -45,5 +47,9 @@ public partial class GameManager : StateMachineBase {
 			player.gameObject.SetActive(true);
 			Strings.Initialize("Strings_PC");
 		}
+	}
+
+	private void ManageSave() {
+		SaveGameManager.Instance.Load();
 	}
 }
