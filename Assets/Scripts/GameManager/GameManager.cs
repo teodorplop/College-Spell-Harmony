@@ -5,7 +5,8 @@ using System.Collections;
 public partial class GameManager : StateMachineBase {
 	private enum GameState {
 		Default,
-		ViveDefault
+		ViveDefault,
+		Defeated
 	}
 
 	[SerializeField] private bool vrEnabled;
@@ -51,5 +52,9 @@ public partial class GameManager : StateMachineBase {
 
 	private void ManageSave() {
 		SaveGameManager.Instance.Load();
+	}
+
+	public void Defeated() {
+		SetState(GameState.Defeated);
 	}
 }

@@ -13,6 +13,7 @@ public partial class MonsterBehaviour {
 	void Idle_Update() {
 		idleTimer = Mathf.Max(0.0f, idleTimer - Time.deltaTime);
 		if (idleTimer > 0.0f) return;
+		if (Player.Instance.IsDead) return;
 
 		Transform playerTr = Player.Instance.transform;
 		

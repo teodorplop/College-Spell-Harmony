@@ -21,6 +21,7 @@ public class Player : MonoBehaviour, ICombatUnit {
 
 	public float Health { get { return health; } }
 	public float MaxHealth { get { return maxHealth; } }
+	public bool IsDead { get { return health <= 0.0f; } }
 
 	public void ApplyDamage(float damage) {
 		health = Mathf.Max(0.0f, health - damage);
@@ -32,5 +33,7 @@ public class Player : MonoBehaviour, ICombatUnit {
 	}
 
 	private void Die() {
+		// fuck me, this is not good.
+		FindObjectOfType<GameManager>().Defeated();
 	}
 }

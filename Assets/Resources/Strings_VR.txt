@@ -1,3 +1,4 @@
 {
-	"STR_INTERACTABLE_PORTAL": "Press blabla to use portal."
+	"STR_INTERACTABLE_PORTAL": "Press blabla to use portal.",
+	"STR_REVIVE_LABEL": "Press blabla to revive."
 }

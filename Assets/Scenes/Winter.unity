@@ -81042,6 +81042,11 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.2181515
       objectReference: {fileID: 0}
+    - target: {fileID: 114718217945291520, guid: 57eeaad8684f03e4b8f63cb35f552806,
+        type: 2}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 57eeaad8684f03e4b8f63cb35f552806, type: 2}
   m_IsPrefabParent: 0
@@ -87527,6 +87532,11 @@ Prefab:
     - target: {fileID: 4164562961379188, guid: 8f29e26cf98b0a84289768815bd11066, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114720065502832364, guid: 8f29e26cf98b0a84289768815bd11066,
+        type: 2}
+      propertyPath: damage
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8f29e26cf98b0a84289768815bd11066, type: 2}

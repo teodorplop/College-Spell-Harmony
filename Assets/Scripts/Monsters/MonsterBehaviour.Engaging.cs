@@ -14,6 +14,11 @@ public partial class MonsterBehaviour {
 	}
 
 	void Engaging_Update() {
+		if (Player.Instance.IsDead) {
+			SetState(MonsterState.Idle);
+			return;
+		}
+
 		Transform playerTr = Player.Instance.transform;
 
 		float distance = Vector3.Distance(transform.position, playerTr.position);

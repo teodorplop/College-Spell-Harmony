@@ -14,6 +14,11 @@ public partial class MonsterBehaviour {
 	}
 
 	void Attacking_Update() {
+		if (Player.Instance.IsDead) {
+			SetState(MonsterState.Idle);
+			return;
+		}
+
 		transform.LookAt(Player.Instance.transform);
 
 		float distance = Vector3.Distance(transform.position, Player.Instance.transform.position);

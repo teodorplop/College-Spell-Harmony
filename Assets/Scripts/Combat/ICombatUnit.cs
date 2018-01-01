@@ -1,4 +1,5 @@
 ﻿public interface ICombatUnit {
+	bool IsDead { get; }
 	float Health { get; }
 	float MaxHealth { get; }
 
