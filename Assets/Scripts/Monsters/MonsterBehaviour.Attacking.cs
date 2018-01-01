@@ -14,10 +14,11 @@ public partial class MonsterBehaviour {
 	}
 
 	void Attacking_Update() {
+		transform.LookAt(Player.Instance.transform);
+
 		float distance = Vector3.Distance(transform.position, Player.Instance.transform.position);
 		if (distance >= attackRange)
-			SetState(MonsterState.Engaging);
-			return;
+			SetState(MonsterState.Idle);
 	}
 
 	protected virtual void OnAttack() {

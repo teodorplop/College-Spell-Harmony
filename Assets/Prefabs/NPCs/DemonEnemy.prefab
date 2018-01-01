@@ -4877,9 +4877,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   engageRadius: 30
-  attackRange: 4
+  attackRange: 6
   turnSpeed: 5
-  moveSpeed: 10
+  moveSpeed: 7
+  damage: 10
 --- !u!137 &137536311451294494
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

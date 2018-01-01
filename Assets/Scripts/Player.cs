@@ -32,6 +32,5 @@ public class Player : MonoBehaviour, ICombatUnit {
 	}
 
 	private void Die() {
-
 	}
 }
