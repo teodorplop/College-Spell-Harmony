@@ -48066,6 +48066,12 @@ GameObject:
   m_PrefabParentObject: {fileID: 1739659395387160, guid: 2c86ec2ad9e236749ba8394c9f1856f7,
     type: 2}
   m_PrefabInternal: {fileID: 1119018239}
+--- !u!114 &1119018241 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114952128568495742, guid: 2c86ec2ad9e236749ba8394c9f1856f7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1119018239}
+  m_Script: {fileID: 11500000, guid: 579f70da3638e694081a806b60423f2f, type: 3}
 --- !u!1 &1119704713
 GameObject:
   m_ObjectHideFlags: 0
@@ -69484,6 +69490,57 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1680680839}
   m_Mesh: {fileID: 4300002, guid: 62929c6f6c08ba54a840d1ca1de7e861, type: 3}
+--- !u!1001 &1684873754
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4480432150078970, guid: c7ff7f50edc892b4face9f3a488d756c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 237.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480432150078970, guid: c7ff7f50edc892b4face9f3a488d756c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480432150078970, guid: c7ff7f50edc892b4face9f3a488d756c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 179.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480432150078970, guid: c7ff7f50edc892b4face9f3a488d756c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480432150078970, guid: c7ff7f50edc892b4face9f3a488d756c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.02676058
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480432150078970, guid: c7ff7f50edc892b4face9f3a488d756c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480432150078970, guid: c7ff7f50edc892b4face9f3a488d756c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.99964195
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480432150078970, guid: c7ff7f50edc892b4face9f3a488d756c, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1200434198944404, guid: c7ff7f50edc892b4face9f3a488d756c, type: 2}
+      propertyPath: m_Name
+      value: SpellLauncher
+      objectReference: {fileID: 0}
+    - target: {fileID: 114111657728450304, guid: c7ff7f50edc892b4face9f3a488d756c,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1119018241}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c7ff7f50edc892b4face9f3a488d756c, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1693698540
 GameObject:
   m_ObjectHideFlags: 0

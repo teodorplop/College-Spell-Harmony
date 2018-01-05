@@ -18,7 +18,7 @@ public class QuestManager {
 
 	public QuestManager() {
 		quests = new List<string>() {
-			"Head into the main hall",
+			"Head into the main hall \n Press 1-4 to test the spells.",
 			"Enter the training room"
 		};
 	}
