@@ -14,6 +14,8 @@ public partial class GameManager : StateMachineBase {
 	[SerializeField] private ViveController rightController;
 	[SerializeField] private GameObject player;
 	[SerializeField] private GameObject vivePlayer;
+	[SerializeField] private SpellLauncher spellLauncher;
+
 	private UIManager uiManager;
 
 	protected override void Awake() {

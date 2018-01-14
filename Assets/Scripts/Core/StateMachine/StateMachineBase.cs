@@ -111,13 +111,13 @@ public abstract class StateMachineBase : MonoBehaviour {
 	#endregion
 
 	#region functions
-	void Update() {
+	protected virtual void Update() {
 		DoUpdate();
 	}
-	void LateUpdate() {
+	protected virtual void LateUpdate() {
 		DoLateUpdate();
 	}
-	void FixedUpdate() {
+	protected virtual void FixedUpdate() {
 		DoFixedUpdate();
 	}
 	/*void OnTriggerEnter(Collider other) {

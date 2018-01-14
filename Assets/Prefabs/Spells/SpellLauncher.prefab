@@ -55,6 +55,5 @@ MonoBehaviour:
   shield: {fileID: 1788596007998194, guid: 9b2a86a0b462ac742b875da122bc7043, type: 2}
   electricSpark: {fileID: 1389022930037542, guid: 4502ff4d539c1ed49831d6dc05c7f31c,
     type: 2}
-  iceball: {fileID: 1682997593959800, guid: b58f050e4274700479eb04ef3ad1a203, type: 2}
+  frostbolt: {fileID: 1682997593959800, guid: b58f050e4274700479eb04ef3ad1a203, type: 2}
   speed: 20
-  player: {fileID: 0}

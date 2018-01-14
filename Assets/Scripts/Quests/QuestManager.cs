@@ -19,7 +19,8 @@ public class QuestManager {
 	public QuestManager() {
 		quests = new List<string>() {
 			"Head into the main hall \n Press 1-4 to test the spells.",
-			"Enter the training room"
+			"Enter the training room",
+			"Press T to start or stop training"
 		};
 	}
 
@@ -29,6 +30,13 @@ public class QuestManager {
 			EventManager.Raise(new QuestCompleted(0));
 			++questIdx;
 		}
+	}
+	public void EnterTrainingRoom() {
+		//if (questIdx == 1) {
+			EventManager.Raise(new QuestCompleted(1));
+			questIdx = 2;
+			//++questIdx;
+		//}
 	}
 
 	public string GetQuest(int id) {
@@ -40,6 +48,6 @@ public class QuestManager {
 	}
 
 	public void Load(SaveGame save) {
-
+		questIdx = save.questIdx;
 	}
 }

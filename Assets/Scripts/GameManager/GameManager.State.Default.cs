@@ -18,6 +18,22 @@ public partial class GameManager {
 				interactable.OnInteract();
 		} else
 			uiManager.ShowInteraction(null);
+
+		CastSpells();
+	}
+
+	void CastSpells() {
+		Player player = Player.Instance;
+		Vector3 dir = player.GetComponentInChildren<Camera>().transform.forward;
+
+		if (Input.GetKeyUp(KeyCode.Alpha1))
+			spellLauncher.Fireball(player.transform, player, dir);
+		else if (Input.GetKeyUp(KeyCode.Alpha2))
+			spellLauncher.Shield(player.transform, player);
+		else if (Input.GetKeyUp(KeyCode.Alpha3))
+			spellLauncher.Frostbolt(player.transform, player, dir);
+		else if (Input.GetKeyUp(KeyCode.Alpha4))
+			spellLauncher.LightingBolt(player.transform, player, dir);
 	}
 
 	GameObject GetObjectInFront() {
