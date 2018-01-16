@@ -83,7 +83,14 @@ public class LaserPointer : MonoBehaviour {
             Teleport();
         }
 
-        if (Controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger)) {
+        /*if (Controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger)) {
+            AnimationHandlerScript scr = gameObjectHit.GetComponent<AnimationHandlerScript>();
+            if (scr != null)
+                scr.Triggered();
+        }*/
+
+        if (Input.GetAxis("TriggerR") > 0.1f)
+        {
             AnimationHandlerScript scr = gameObjectHit.GetComponent<AnimationHandlerScript>();
             if (scr != null)
                 scr.Triggered();
