@@ -1,0 +1,469 @@
+fileFormatVersion: 2
+guid: 8cd158859da8de049a4048ebd8188351
+timeCreated: 1516824950
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000
+  assetHash:
+    serializedVersion: 2
+    Hash: e46ee26ca14c0a1c0e50d75084178dd5
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -2.3062549, y: 2.0652597, z: -0.20725302}
+      lookAt: {x: 0.21644805, y: 0.824555, z: 0.4680294}
+      up: {x: 0.4145282, y: 0.9032463, z: 0.11096177}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armour Stand hook
+    100002: Armour Stand hook 1
+    100004: Armour Stand hook 10
+    100006: Armour Stand hook 11
+    100008: Armour Stand hook 12
+    100010: Armour Stand hook 13
+    100012: Armour Stand hook 2
+    100014: Armour Stand hook 3
+    100016: Armour Stand hook 4
+    100018: Armour Stand hook 5
+    100020: Armour Stand hook 6
+    100022: Armour Stand hook 7
+    100024: Armour Stand hook 8
+    100026: Armour Stand hook 9
+    100028: Armour Stand Small
+    100030: Armour Stand Small side
+    100032: Armour Stand Small side 1
+    100034: Group 113
+    100036: Group 115
+    100038: Group 117
+    100040: Group 130
+    100042: Group 132
+    100044: Group 134
+    100046: Group 145
+    100048: Group 147
+    100050: Group 149
+    100052: Sword
+    100054: Sword 1
+    100056: Sword 2
+    100058: Sword section
+    100060: Sword section 1
+    100062: Sword section 10
+    100064: Sword section 11
+    100066: Sword section 2
+    100068: Sword section 3
+    100070: Sword section 4
+    100072: Sword section 5
+    100074: Sword section 6
+    100076: Sword section 7
+    100078: Sword section 8
+    100080: Sword section 9
+    100082: Sword section blade
+    100084: Sword section blade 1
+    100086: Sword section blade 10
+    100088: Sword section blade 11
+    100090: Sword section blade 2
+    100092: Sword section blade 3
+    100094: Sword section blade 4
+    100096: Sword section blade 5
+    100098: Sword section blade 6
+    100100: Sword section blade 7
+    100102: Sword section blade 8
+    100104: Sword section blade 9
+    100106: Sword section guard
+    100108: Sword section guard 1
+    100110: Sword section guard 10
+    100112: Sword section guard 11
+    100114: Sword section guard 2
+    100116: Sword section guard 3
+    100118: Sword section guard 4
+    100120: Sword section guard 5
+    100122: Sword section guard 6
+    100124: Sword section guard 7
+    100126: Sword section guard 8
+    100128: Sword section guard 9
+    100130: Sword section hilt
+    100132: Sword section hilt 1
+    100134: Sword section hilt 10
+    100136: Sword section hilt 11
+    100138: Sword section hilt 2
+    100140: Sword section hilt 3
+    100142: Sword section hilt 4
+    100144: Sword section hilt 5
+    100146: Sword section hilt 6
+    100148: Sword section hilt 7
+    100150: Sword section hilt 8
+    100152: Sword section hilt 9
+    100154: Sword section pommel
+    100156: Sword section pommel 1
+    100158: Sword section pommel 10
+    100160: Sword section pommel 11
+    100162: Sword section pommel 2
+    100164: Sword section pommel 3
+    100166: Sword section pommel 4
+    100168: Sword section pommel 5
+    100170: Sword section pommel 6
+    100172: Sword section pommel 7
+    100174: Sword section pommel 8
+    100176: Sword section pommel 9
+    100178: //RootNode
+    400000: Armour Stand hook
+    400002: Armour Stand hook 1
+    400004: Armour Stand hook 10
+    400006: Armour Stand hook 11
+    400008: Armour Stand hook 12
+    400010: Armour Stand hook 13
+    400012: Armour Stand hook 2
+    400014: Armour Stand hook 3
+    400016: Armour Stand hook 4
+    400018: Armour Stand hook 5
+    400020: Armour Stand hook 6
+    400022: Armour Stand hook 7
+    400024: Armour Stand hook 8
+    400026: Armour Stand hook 9
+    400028: Armour Stand Small
+    400030: Armour Stand Small side
+    400032: Armour Stand Small side 1
+    400034: Group 113
+    400036: Group 115
+    400038: Group 117
+    400040: Group 130
+    400042: Group 132
+    400044: Group 134
+    400046: Group 145
+    400048: Group 147
+    400050: Group 149
+    400052: Sword
+    400054: Sword 1
+    400056: Sword 2
+    400058: Sword section
+    400060: Sword section 1
+    400062: Sword section 10
+    400064: Sword section 11
+    400066: Sword section 2
+    400068: Sword section 3
+    400070: Sword section 4
+    400072: Sword section 5
+    400074: Sword section 6
+    400076: Sword section 7
+    400078: Sword section 8
+    400080: Sword section 9
+    400082: Sword section blade
+    400084: Sword section blade 1
+    400086: Sword section blade 10
+    400088: Sword section blade 11
+    400090: Sword section blade 2
+    400092: Sword section blade 3
+    400094: Sword section blade 4
+    400096: Sword section blade 5
+    400098: Sword section blade 6
+    400100: Sword section blade 7
+    400102: Sword section blade 8
+    400104: Sword section blade 9
+    400106: Sword section guard
+    400108: Sword section guard 1
+    400110: Sword section guard 10
+    400112: Sword section guard 11
+    400114: Sword section guard 2
+    400116: Sword section guard 3
+    400118: Sword section guard 4
+    400120: Sword section guard 5
+    400122: Sword section guard 6
+    400124: Sword section guard 7
+    400126: Sword section guard 8
+    400128: Sword section guard 9
+    400130: Sword section hilt
+    400132: Sword section hilt 1
+    400134: Sword section hilt 10
+    400136: Sword section hilt 11
+    400138: Sword section hilt 2
+    400140: Sword section hilt 3
+    400142: Sword section hilt 4
+    400144: Sword section hilt 5
+    400146: Sword section hilt 6
+    400148: Sword section hilt 7
+    400150: Sword section hilt 8
+    400152: Sword section hilt 9
+    400154: Sword section pommel
+    400156: Sword section pommel 1
+    400158: Sword section pommel 10
+    400160: Sword section pommel 11
+    400162: Sword section pommel 2
+    400164: Sword section pommel 3
+    400166: Sword section pommel 4
+    400168: Sword section pommel 5
+    400170: Sword section pommel 6
+    400172: Sword section pommel 7
+    400174: Sword section pommel 8
+    400176: Sword section pommel 9
+    400178: //RootNode
+    2300000: Armour Stand hook
+    2300002: Armour Stand hook 1
+    2300004: Armour Stand hook 10
+    2300006: Armour Stand hook 11
+    2300008: Armour Stand hook 12
+    2300010: Armour Stand hook 13
+    2300012: Armour Stand hook 2
+    2300014: Armour Stand hook 3
+    2300016: Armour Stand hook 4
+    2300018: Armour Stand hook 5
+    2300020: Armour Stand hook 6
+    2300022: Armour Stand hook 7
+    2300024: Armour Stand hook 8
+    2300026: Armour Stand hook 9
+    2300028: Group 113
+    2300030: Group 115
+    2300032: Group 117
+    2300034: Group 130
+    2300036: Group 132
+    2300038: Group 134
+    2300040: Group 145
+    2300042: Group 147
+    2300044: Group 149
+    2300046: Sword section blade
+    2300048: Sword section blade 1
+    2300050: Sword section blade 10
+    2300052: Sword section blade 11
+    2300054: Sword section blade 2
+    2300056: Sword section blade 3
+    2300058: Sword section blade 4
+    2300060: Sword section blade 5
+    2300062: Sword section blade 6
+    2300064: Sword section blade 7
+    2300066: Sword section blade 8
+    2300068: Sword section blade 9
+    2300070: Sword section guard
+    2300072: Sword section guard 1
+    2300074: Sword section guard 10
+    2300076: Sword section guard 11
+    2300078: Sword section guard 2
+    2300080: Sword section guard 3
+    2300082: Sword section guard 4
+    2300084: Sword section guard 5
+    2300086: Sword section guard 6
+    2300088: Sword section guard 7
+    2300090: Sword section guard 8
+    2300092: Sword section guard 9
+    2300094: Sword section hilt
+    2300096: Sword section hilt 1
+    2300098: Sword section hilt 10
+    2300100: Sword section hilt 11
+    2300102: Sword section hilt 2
+    2300104: Sword section hilt 3
+    2300106: Sword section hilt 4
+    2300108: Sword section hilt 5
+    2300110: Sword section hilt 6
+    2300112: Sword section hilt 7
+    2300114: Sword section hilt 8
+    2300116: Sword section hilt 9
+    2300118: Sword section pommel
+    2300120: Sword section pommel 1
+    2300122: Sword section pommel 10
+    2300124: Sword section pommel 11
+    2300126: Sword section pommel 2
+    2300128: Sword section pommel 3
+    2300130: Sword section pommel 4
+    2300132: Sword section pommel 5
+    2300134: Sword section pommel 6
+    2300136: Sword section pommel 7
+    2300138: Sword section pommel 8
+    2300140: Sword section pommel 9
+    3300000: Armour Stand hook
+    3300002: Armour Stand hook 1
+    3300004: Armour Stand hook 10
+    3300006: Armour Stand hook 11
+    3300008: Armour Stand hook 12
+    3300010: Armour Stand hook 13
+    3300012: Armour Stand hook 2
+    3300014: Armour Stand hook 3
+    3300016: Armour Stand hook 4
+    3300018: Armour Stand hook 5
+    3300020: Armour Stand hook 6
+    3300022: Armour Stand hook 7
+    3300024: Armour Stand hook 8
+    3300026: Armour Stand hook 9
+    3300028: Group 113
+    3300030: Group 115
+    3300032: Group 117
+    3300034: Group 130
+    3300036: Group 132
+    3300038: Group 134
+    3300040: Group 145
+    3300042: Group 147
+    3300044: Group 149
+    3300046: Sword section blade
+    3300048: Sword section blade 1
+    3300050: Sword section blade 10
+    3300052: Sword section blade 11
+    3300054: Sword section blade 2
+    3300056: Sword section blade 3
+    3300058: Sword section blade 4
+    3300060: Sword section blade 5
+    3300062: Sword section blade 6
+    3300064: Sword section blade 7
+    3300066: Sword section blade 8
+    3300068: Sword section blade 9
+    3300070: Sword section guard
+    3300072: Sword section guard 1
+    3300074: Sword section guard 10
+    3300076: Sword section guard 11
+    3300078: Sword section guard 2
+    3300080: Sword section guard 3
+    3300082: Sword section guard 4
+    3300084: Sword section guard 5
+    3300086: Sword section guard 6
+    3300088: Sword section guard 7
+    3300090: Sword section guard 8
+    3300092: Sword section guard 9
+    3300094: Sword section hilt
+    3300096: Sword section hilt 1
+    3300098: Sword section hilt 10
+    3300100: Sword section hilt 11
+    3300102: Sword section hilt 2
+    3300104: Sword section hilt 3
+    3300106: Sword section hilt 4
+    3300108: Sword section hilt 5
+    3300110: Sword section hilt 6
+    3300112: Sword section hilt 7
+    3300114: Sword section hilt 8
+    3300116: Sword section hilt 9
+    3300118: Sword section pommel
+    3300120: Sword section pommel 1
+    3300122: Sword section pommel 10
+    3300124: Sword section pommel 11
+    3300126: Sword section pommel 2
+    3300128: Sword section pommel 3
+    3300130: Sword section pommel 4
+    3300132: Sword section pommel 5
+    3300134: Sword section pommel 6
+    3300136: Sword section pommel 7
+    3300138: Sword section pommel 8
+    3300140: Sword section pommel 9
+    4300000: Mesh Sword section guard
+    4300002: Mesh Sword section hilt
+    4300004: Mesh Sword section blade
+    4300006: Mesh Sword section pommel
+    4300008: Mesh Group 113
+    4300010: Mesh Group 115
+    4300012: Mesh Group 117
+    4300014: Mesh Armour Stand hook
+    4300016: Mesh Armour Stand hook
+    4300018: Mesh Group 130
+    4300020: Mesh Group 132
+    4300022: Mesh Group 134
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 0135_DarkGray
+    second: {fileID: 2100000, guid: 78136b8d84fa79b45bf5eb516c7631e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carpet_Loop_Pattern
+    second: {fileID: 2100000, guid: 5a3ca9fb10a8f484b907dba057cc485a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ironmongary
+    second: {fileID: 2100000, guid: d711b25ee5891b847a7b2dc52ce53090, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steve_Hair
+    second: {fileID: 2100000, guid: 1bc4f0585ca112a4e9b3f348460ff7ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Lumber_ButtJoined
+    second: {fileID: 2100000, guid: 55335f1a0f563114c854c9cd13bca4ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: e92d5d5f206e503499c1136aa99e002f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,6 +2,7 @@
 
 public class SpellCollision : MonoBehaviour {
     public SpellEffect explosion;
+    public GameObject brokenCrate;
 	[SerializeField] private float aliveTime = 10.0f;
 
 	private ICombatUnit caster;
@@ -18,12 +19,30 @@ public class SpellCollision : MonoBehaviour {
 	}
 
     public void OnParticleCollision(GameObject other) {
-		ICombatUnit combatUnit = other.GetComponent<ICombatUnit>();
+
+        if (other.tag.Equals("Crate"))
+        {
+            Destroy(other);
+            Instantiate(brokenCrate, other.transform.position, other.transform.rotation);
+            Destroy(transform.parent.gameObject);
+
+        }
+        else if (other.tag.Equals("Training"))
+        {
+            Instantiate(explosion, other.transform);
+            Destroy(transform.parent.gameObject);
+        }
+
+
+        ICombatUnit combatUnit = other.GetComponent<ICombatUnit>();
+
 		if (combatUnit == null || combatUnit == caster) return;
 
 		if (caster.CanAttack(combatUnit))
 			combatUnit.ApplyEffect(explosion);
-		
-		Destroy(transform.parent.gameObject); // not the best, but works for these effects
-	}
+
+        Destroy(transform.parent.gameObject); // not the best, but works for these effects
+    }
+
+
 }

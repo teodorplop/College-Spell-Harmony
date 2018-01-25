@@ -1,0 +1,2158 @@
+fileFormatVersion: 2
+guid: 1a858c71026c2b041bd85b5374bd5550
+timeCreated: 1516824937
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f010000500100005101000052010000530100005401000055010000560100005701000058010000590100005a0100005b0100005c0100005d0100005e0100005f010000600100006101000062010000630100006401000065010000660100006701000068010000690100006a0100006b0100006c0100006d0100006e0100006f010000700100007101000072010000730100007401000075010000760100007701000078010000790100007a0100007b0100007c0100007d0100007e0100007f010000800100008101000082010000830100008401000085010000860100008701000088010000890100008a0100008b0100008c0100008d0100008e0100008f010000900100009101000092010000930100009401000095010000960100009701000098010000990100009a0100009b0100009c0100009d0100009e0100009f010000a0010000a1010000a2010000a3010000a4010000a5010000a6010000a7010000a8010000a9010000aa010000ab010000ac010000ad010000ae010000af010000b0010000b1010000b2010000b3010000b4010000b5010000b6010000b7010000b8010000b9010000ba010000bb010000bc010000bd010000be010000bf010000c0010000c1010000c2010000c3010000c4010000c5010000c6010000c7010000c8010000c9010000ca010000cb010000cc010000cd010000ce010000cf010000d0010000d1010000d2010000d3010000d4010000d5010000d6010000d7010000d8010000d9010000da010000db010000dc010000dd010000de010000df010000e0010000e1010000e2010000e3010000e4010000e5010000e6010000e7010000e8010000e9010000ea010000eb010000ec010000ed010000ee010000ef010000f0010000f1010000f2010000f3010000f4010000f5010000f6010000f7010000f8010000f9010000fa010000fb010000fc010000fd010000fe010000ff010000000200000102000002020000030200000402000005020000060200000702000008020000090200000a0200000b0200000c0200000d0200000e0200000f020000100200001102000012020000130200001402000015020000160200001702000018020000190200001a0200001b0200001c0200001d0200001e0200001f020000200200002102000022020000230200002402000025020000260200002702000028020000290200002a0200002b0200002c0200002d0200002e0200002f020000300200003102000032020000330200003402000035020000360200003702000038020000390200003a0200003b0200003c0200003d0200003e0200003f020000400200004102000042020000430200004402000045020000460200004702000048020000490200004a0200004b0200004c0200004d0200004e0200004f020000500200005102000052020000530200005402000055020000560200005702000058020000590200005a0200005b0200005c0200005d0200005e0200005f020000600200006102000062020000630200006402000065020000660200006702000068020000690200006a0200006b0200006c0200006d0200006e0200006f020000700200007102000072020000730200007402000075020000760200007702000078020000790200007a0200007b0200007c0200007d0200007e0200007f020000800200008102000082020000830200008402000085020000860200008702000088020000890200008a0200008b0200008c0200008d0200008e0200008f020000900200009102000092020000930200009402000095020000960200009702000098020000990200009a0200009b0200009c0200009d0200009e0200009f020000a0020000a1020000a2020000a3020000a4020000a5020000a6020000a7020000a8020000a9020000aa020000ab020000ac020000ad020000ae020000af020000b0020000b1020000b2020000b3020000b4020000b5020000b6020000b7020000b8020000b9020000ba020000bb020000bc020000bd020000be020000bf020000c0020000c1020000c2020000c3020000c4020000c5020000c6020000c7020000c8020000c9020000ca020000cb020000cc020000cd020000ce020000cf020000d0020000d1020000d2020000d3020000d4020000d5020000d6020000d7020000d8020000d9020000da020000db020000dc020000dd020000de020000df020000e0020000e1020000e2020000e3020000e4020000e5020000e6020000e7020000e8020000e9020000ea020000eb020000ec020000ed020000ee020000ef020000f0020000f1020000f2020000f3020000f4020000f5020000f6020000f7020000f8020000f9020000fa020000fb020000fc020000fd020000fe020000ff020000000300000103000002030000030300000403000005030000060300000703000008030000090300000a0300000b0300000c0300000d0300000e0300000f030000100300001103000012030000130300001403000015030000160300001703000018030000190300001a0300001b0300001c0300001d0300001e0300001f030000200300002103000022030000230300002403000025030000260300002703000028030000290300002a0300002b0300002c0300002d0300002e0300002f030000300300003103000032030000330300003403000035030000360300003703000038030000390300003a0300003b0300003c0300003d0300003e0300003f030000400300004103000042030000430300004403000045030000460300004703000048030000490300004a0300004b0300004c0300004d0300004e0300004f030000500300005103000052030000530300005403000055030000560300005703000058030000590300005a0300005b0300005c0300005d0300005e0300005f030000600300006103000062030000630300006403000065030000660300006703000068030000690300006a0300006b0300006c0300006d0300006e0300006f030000700300007103000072030000730300007403000075030000760300007703000078030000790300007a0300007b0300007c0300007d0300007e0300007f030000800300008103000082030000830300008403000085030000860300008703000088030000890300008a0300008b0300008c0300008d0300008e0300008f030000900300009103000092030000930300009403000095030000960300009703000098030000990300009a0300009b0300009c0300009d0300009e0300009f030000a0030000a1030000a2030000a3030000a4030000a5030000a6030000a7030000a8030000a9030000aa030000ab030000ac030000ad030000ae030000af030000b0030000b1030000b2030000b3030000b4030000b5030000b6030000b7030000b8030000b9030000ba030000bb030000bc030000bd030000be030000bf030000c0030000c1030000c2030000c3030000
+  assetHash:
+    serializedVersion: 2
+    Hash: ebeda15a0fc39bcfd4c30a0e85085d78
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -6.520219, y: 8.975617, z: 5.900822}
+      lookAt: {x: -1.9331764, y: 4.206359, z: 4.018796}
+      up: {x: 0.6413625, y: 0.72069997, z: -0.26314583}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armour Stand hook
+    100002: Armour Stand hook 1
+    100004: Armour Stand hook 10
+    100006: Armour Stand hook 11
+    100008: Armour Stand hook 12
+    100010: Armour Stand hook 13
+    100012: Armour Stand hook 14
+    100014: Armour Stand hook 15
+    100016: Armour Stand hook 16
+    100018: Armour Stand hook 17
+    100020: Armour Stand hook 18
+    100022: Armour Stand hook 19
+    100024: Armour Stand hook 2
+    100026: Armour Stand hook 20
+    100028: Armour Stand hook 21
+    100030: Armour Stand hook 22
+    100032: Armour Stand hook 23
+    100034: Armour Stand hook 24
+    100036: Armour Stand hook 25
+    100038: Armour Stand hook 26
+    100040: Armour Stand hook 27
+    100042: Armour Stand hook 28
+    100044: Armour Stand hook 29
+    100046: Armour Stand hook 3
+    100048: Armour Stand hook 30
+    100050: Armour Stand hook 31
+    100052: Armour Stand hook 32
+    100054: Armour Stand hook 33
+    100056: Armour Stand hook 34
+    100058: Armour Stand hook 35
+    100060: Armour Stand hook 4
+    100062: Armour Stand hook 5
+    100064: Armour Stand hook 6
+    100066: Armour Stand hook 7
+    100068: Armour Stand hook 8
+    100070: Armour Stand hook 9
+    100072: Armour Stand Large
+    100074: Armour Stand Large side
+    100076: Armour Stand Large side 1
+    100078: Armour Stand Small
+    100080: Armour Stand Small side
+    100082: Armour Stand Small side 1
+    100084: Axe Stand
+    100086: Base
+    100088: Base 1
+    100090: Base 2
+    100092: Base 3
+    100094: Base 4
+    100096: Chain Link
+    100098: Chain Link 1
+    100100: Chain Link 10
+    100102: Chain Link 100
+    100104: Chain Link 101
+    100106: Chain Link 102
+    100108: Chain Link 103
+    100110: Chain Link 104
+    100112: Chain Link 105
+    100114: Chain Link 106
+    100116: Chain Link 107
+    100118: Chain Link 108
+    100120: Chain Link 109
+    100122: Chain Link 11
+    100124: Chain Link 110
+    100126: Chain Link 111
+    100128: Chain Link 112
+    100130: Chain Link 113
+    100132: Chain Link 114
+    100134: Chain Link 115
+    100136: Chain Link 116
+    100138: Chain Link 117
+    100140: Chain Link 118
+    100142: Chain Link 119
+    100144: Chain Link 12
+    100146: Chain Link 120
+    100148: Chain Link 121
+    100150: Chain Link 122
+    100152: Chain Link 123
+    100154: Chain Link 124
+    100156: Chain Link 125
+    100158: Chain Link 126
+    100160: Chain Link 127
+    100162: Chain Link 128
+    100164: Chain Link 129
+    100166: Chain Link 13
+    100168: Chain Link 130
+    100170: Chain Link 131
+    100172: Chain Link 132
+    100174: Chain Link 133
+    100176: Chain Link 134
+    100178: Chain Link 135
+    100180: Chain Link 14
+    100182: Chain Link 15
+    100184: Chain Link 16
+    100186: Chain Link 17
+    100188: Chain Link 18
+    100190: Chain Link 19
+    100192: Chain Link 2
+    100194: Chain Link 20
+    100196: Chain Link 21
+    100198: Chain Link 22
+    100200: Chain Link 23
+    100202: Chain Link 24
+    100204: Chain Link 25
+    100206: Chain Link 26
+    100208: Chain Link 27
+    100210: Chain Link 28
+    100212: Chain Link 29
+    100214: Chain Link 3
+    100216: Chain Link 30
+    100218: Chain Link 31
+    100220: Chain Link 32
+    100222: Chain Link 33
+    100224: Chain Link 34
+    100226: Chain Link 35
+    100228: Chain Link 36
+    100230: Chain Link 37
+    100232: Chain Link 38
+    100234: Chain Link 39
+    100236: Chain Link 4
+    100238: Chain Link 40
+    100240: Chain Link 41
+    100242: Chain Link 42
+    100244: Chain Link 43
+    100246: Chain Link 44
+    100248: Chain Link 45
+    100250: Chain Link 46
+    100252: Chain Link 47
+    100254: Chain Link 48
+    100256: Chain Link 49
+    100258: Chain Link 5
+    100260: Chain Link 50
+    100262: Chain Link 51
+    100264: Chain Link 52
+    100266: Chain Link 53
+    100268: Chain Link 54
+    100270: Chain Link 55
+    100272: Chain Link 56
+    100274: Chain Link 57
+    100276: Chain Link 58
+    100278: Chain Link 59
+    100280: Chain Link 6
+    100282: Chain Link 60
+    100284: Chain Link 61
+    100286: Chain Link 62
+    100288: Chain Link 63
+    100290: Chain Link 64
+    100292: Chain Link 65
+    100294: Chain Link 66
+    100296: Chain Link 67
+    100298: Chain Link 68
+    100300: Chain Link 69
+    100302: Chain Link 7
+    100304: Chain Link 70
+    100306: Chain Link 71
+    100308: Chain Link 72
+    100310: Chain Link 73
+    100312: Chain Link 74
+    100314: Chain Link 75
+    100316: Chain Link 76
+    100318: Chain Link 77
+    100320: Chain Link 78
+    100322: Chain Link 79
+    100324: Chain Link 8
+    100326: Chain Link 80
+    100328: Chain Link 81
+    100330: Chain Link 82
+    100332: Chain Link 83
+    100334: Chain Link 84
+    100336: Chain Link 85
+    100338: Chain Link 86
+    100340: Chain Link 87
+    100342: Chain Link 88
+    100344: Chain Link 89
+    100346: Chain Link 9
+    100348: Chain Link 90
+    100350: Chain Link 91
+    100352: Chain Link 92
+    100354: Chain Link 93
+    100356: Chain Link 94
+    100358: Chain Link 95
+    100360: Chain Link 96
+    100362: Chain Link 97
+    100364: Chain Link 98
+    100366: Chain Link 99
+    100368: Coat of arms
+    100370: //RootNode
+    100372: Group 11
+    100374: Group 14
+    100376: Group 142
+    100378: Group 144
+    100380: Group 146
+    100382: Group 148
+    100384: Group 150
+    100386: Group 16
+    100388: Group 189
+    100390: Group 19
+    100392: Group 191
+    100394: Group 193
+    100396: Group 195
+    100398: Group 197
+    100400: Group 199
+    100402: Group 2
+    100404: Group 201
+    100406: Group 203
+    100408: Group 205
+    100410: Group 207
+    100412: Group 209
+    100414: Group 21
+    100416: Group 211
+    100418: Group 213
+    100420: Group 23
+    100422: Group 25
+    100424: Group 27
+    100426: Group 300
+    100428: Group 302
+    100430: Group 304
+    100432: Group 306
+    100434: Group 308
+    100436: Group 319
+    100438: Group 38
+    100440: Group 390
+    100442: Group 4
+    100444: Group 463
+    100446: Group 483
+    100448: Group 485
+    100450: Group 500
+    100452: Group 502
+    100454: Group 517
+    100456: Group 519
+    100458: Group 534
+    100460: Group 536
+    100462: Group 551
+    100464: Group 553
+    100466: Group 568
+    100468: Group 570
+    100470: Group 587
+    100472: Group 589
+    100474: Group 591
+    100476: Group 593
+    100478: Group 595
+    100480: Group 6
+    100482: Group 804
+    100484: Group 806
+    100486: Group 808
+    100488: Group 821
+    100490: Group 823
+    100492: Group 825
+    100494: Group 836
+    100496: Group 838
+    100498: Group 840
+    100500: Group 854
+    100502: Group 871
+    100504: Group 874
+    100506: Group 89
+    100508: Group 891
+    100510: Group 894
+    100512: Group 896
+    100514: Group 898
+    100516: Group 9
+    100518: Group 900
+    100520: Group 905
+    100522: Group 907
+    100524: Group 909
+    100526: Group 911
+    100528: Group 928
+    100530: Group 930
+    100532: Group 932
+    100534: Group 934
+    100536: Poleaxe
+    100538: Poleaxe 1
+    100540: Poleaxe head section
+    100542: Poleaxe head section 1
+    100544: Poleaxe head section 10
+    100546: Poleaxe head section 11
+    100548: Poleaxe head section 12
+    100550: Poleaxe head section 13
+    100552: Poleaxe head section 14
+    100554: Poleaxe head section 15
+    100556: Poleaxe head section 2
+    100558: Poleaxe head section 3
+    100560: Poleaxe head section 4
+    100562: Poleaxe head section 5
+    100564: Poleaxe head section 6
+    100566: Poleaxe head section 7
+    100568: Poleaxe head section 8
+    100570: Poleaxe head section 9
+    100572: Sack Body
+    100574: Sack Body 1
+    100576: Sack body section
+    100578: Sack body section 1
+    100580: Sack body section 10
+    100582: Sack body section 11
+    100584: Sack body section 12
+    100586: Sack body section 13
+    100588: Sack body section 14
+    100590: Sack body section 15
+    100592: Sack body section 2
+    100594: Sack body section 3
+    100596: Sack body section 4
+    100598: Sack body section 5
+    100600: Sack body section 6
+    100602: Sack body section 7
+    100604: Sack body section 8
+    100606: Sack body section 9
+    100608: Sack Large
+    100610: Sack Large 1
+    100612: Sack Large section
+    100614: Sack Large section 1
+    100616: Sack Large section 2
+    100618: Sack Large section 3
+    100620: Sack Large section 4
+    100622: Sack Large section 5
+    100624: Sack Large section 6
+    100626: Sack Large section 7
+    100628: Sack Small
+    100630: Sack Small 1
+    100632: Sack Small 2
+    100634: Sack Small 3
+    100636: Sack Small 4
+    100638: Sack Small Section
+    100640: Sack Small Section 1
+    100642: Sack Small Section 10
+    100644: Sack Small Section 11
+    100646: Sack Small Section 12
+    100648: Sack Small Section 13
+    100650: Sack Small Section 14
+    100652: Sack Small Section 15
+    100654: Sack Small Section 16
+    100656: Sack Small Section 17
+    100658: Sack Small Section 18
+    100660: Sack Small Section 19
+    100662: Sack Small Section 2
+    100664: Sack Small Section 3
+    100666: Sack Small Section 4
+    100668: Sack Small Section 5
+    100670: Sack Small Section 6
+    100672: Sack Small Section 7
+    100674: Sack Small Section 8
+    100676: Sack Small Section 9
+    100678: Sheild part
+    100680: Sheild part 1
+    100682: Sheild part 2
+    100684: Sheild part 3
+    100686: Sheild part strap
+    100688: Sheild part strap 1
+    100690: Sheild part strap 2
+    100692: Sheild part strap 3
+    100694: Shield
+    100696: Shield 1
+    100698: Sword
+    100700: Sword 1
+    100702: Sword 2
+    100704: Sword 3
+    100706: Sword 4
+    100708: Sword 5
+    100710: Sword section
+    100712: Sword section 1
+    100714: Sword section 10
+    100716: Sword section 11
+    100718: Sword section 12
+    100720: Sword section 13
+    100722: Sword section 14
+    100724: Sword section 15
+    100726: Sword section 16
+    100728: Sword section 17
+    100730: Sword section 18
+    100732: Sword section 19
+    100734: Sword section 2
+    100736: Sword section 20
+    100738: Sword section 21
+    100740: Sword section 22
+    100742: Sword section 23
+    100744: Sword section 3
+    100746: Sword section 4
+    100748: Sword section 5
+    100750: Sword section 6
+    100752: Sword section 7
+    100754: Sword section 8
+    100756: Sword section 9
+    100758: Sword section blade
+    100760: Sword section blade 1
+    100762: Sword section blade 10
+    100764: Sword section blade 11
+    100766: Sword section blade 12
+    100768: Sword section blade 13
+    100770: Sword section blade 14
+    100772: Sword section blade 15
+    100774: Sword section blade 16
+    100776: Sword section blade 17
+    100778: Sword section blade 18
+    100780: Sword section blade 19
+    100782: Sword section blade 2
+    100784: Sword section blade 20
+    100786: Sword section blade 21
+    100788: Sword section blade 22
+    100790: Sword section blade 23
+    100792: Sword section blade 3
+    100794: Sword section blade 4
+    100796: Sword section blade 5
+    100798: Sword section blade 6
+    100800: Sword section blade 7
+    100802: Sword section blade 8
+    100804: Sword section blade 9
+    100806: Sword section guard
+    100808: Sword section guard 1
+    100810: Sword section guard 10
+    100812: Sword section guard 11
+    100814: Sword section guard 12
+    100816: Sword section guard 13
+    100818: Sword section guard 14
+    100820: Sword section guard 15
+    100822: Sword section guard 16
+    100824: Sword section guard 17
+    100826: Sword section guard 18
+    100828: Sword section guard 19
+    100830: Sword section guard 2
+    100832: Sword section guard 20
+    100834: Sword section guard 21
+    100836: Sword section guard 22
+    100838: Sword section guard 23
+    100840: Sword section guard 3
+    100842: Sword section guard 4
+    100844: Sword section guard 5
+    100846: Sword section guard 6
+    100848: Sword section guard 7
+    100850: Sword section guard 8
+    100852: Sword section guard 9
+    100854: Sword section hilt
+    100856: Sword section hilt 1
+    100858: Sword section hilt 10
+    100860: Sword section hilt 11
+    100862: Sword section hilt 12
+    100864: Sword section hilt 13
+    100866: Sword section hilt 14
+    100868: Sword section hilt 15
+    100870: Sword section hilt 16
+    100872: Sword section hilt 17
+    100874: Sword section hilt 18
+    100876: Sword section hilt 19
+    100878: Sword section hilt 2
+    100880: Sword section hilt 20
+    100882: Sword section hilt 21
+    100884: Sword section hilt 22
+    100886: Sword section hilt 23
+    100888: Sword section hilt 3
+    100890: Sword section hilt 4
+    100892: Sword section hilt 5
+    100894: Sword section hilt 6
+    100896: Sword section hilt 7
+    100898: Sword section hilt 8
+    100900: Sword section hilt 9
+    100902: Sword section pommel
+    100904: Sword section pommel 1
+    100906: Sword section pommel 10
+    100908: Sword section pommel 11
+    100910: Sword section pommel 12
+    100912: Sword section pommel 13
+    100914: Sword section pommel 14
+    100916: Sword section pommel 15
+    100918: Sword section pommel 16
+    100920: Sword section pommel 17
+    100922: Sword section pommel 18
+    100924: Sword section pommel 19
+    100926: Sword section pommel 2
+    100928: Sword section pommel 20
+    100930: Sword section pommel 21
+    100932: Sword section pommel 22
+    100934: Sword section pommel 23
+    100936: Sword section pommel 3
+    100938: Sword section pommel 4
+    100940: Sword section pommel 5
+    100942: Sword section pommel 6
+    100944: Sword section pommel 7
+    100946: Sword section pommel 8
+    100948: Sword section pommel 9
+    100950: 'Swords stand '
+    100952: Target
+    100954: Target Strut
+    100956: Target Strut 1
+    100958: Training Dummy Armed
+    100960: Training Dummy Basic
+    100962: Training Dummy Body
+    100964: Training Dummy Body target
+    100966: Training Dummy Body target 1
+    100968: Training Dummy bracing
+    100970: Training Dummy bracing 1
+    100972: Training Dummy bracing 10
+    100974: Training Dummy bracing 11
+    100976: Training Dummy bracing 12
+    100978: Training Dummy bracing 13
+    100980: Training Dummy bracing 14
+    100982: Training Dummy bracing 15
+    100984: Training Dummy bracing 16
+    100986: Training Dummy bracing 17
+    100988: Training Dummy bracing 18
+    100990: Training Dummy bracing 19
+    100992: Training Dummy bracing 2
+    100994: Training Dummy bracing 20
+    100996: Training Dummy bracing 21
+    100998: Training Dummy bracing 22
+    101000: Training Dummy bracing 23
+    101002: Training Dummy bracing 24
+    101004: Training Dummy bracing 25
+    101006: Training Dummy bracing 3
+    101008: Training Dummy bracing 4
+    101010: Training Dummy bracing 5
+    101012: Training Dummy bracing 6
+    101014: Training Dummy bracing 7
+    101016: Training Dummy bracing 8
+    101018: Training Dummy bracing 9
+    101020: Training Dummy Chains
+    101022: Training Dummy Chains arm
+    101024: Training Dummy Chains arm 1
+    101026: Training Dummy Chains arm 2
+    101028: Training Dummy Chains arm 3
+    101030: Training Dummy Chains arm 4
+    101032: Training Dummy Chains arm 5
+    101034: Training Dummy Head
+    101036: Training Dummy Head target
+    101038: Training Dummy Head target 1
+    101040: Training Dummy Stand
+    400000: Armour Stand hook
+    400002: Armour Stand hook 1
+    400004: Armour Stand hook 10
+    400006: Armour Stand hook 11
+    400008: Armour Stand hook 12
+    400010: Armour Stand hook 13
+    400012: Armour Stand hook 14
+    400014: Armour Stand hook 15
+    400016: Armour Stand hook 16
+    400018: Armour Stand hook 17
+    400020: Armour Stand hook 18
+    400022: Armour Stand hook 19
+    400024: Armour Stand hook 2
+    400026: Armour Stand hook 20
+    400028: Armour Stand hook 21
+    400030: Armour Stand hook 22
+    400032: Armour Stand hook 23
+    400034: Armour Stand hook 24
+    400036: Armour Stand hook 25
+    400038: Armour Stand hook 26
+    400040: Armour Stand hook 27
+    400042: Armour Stand hook 28
+    400044: Armour Stand hook 29
+    400046: Armour Stand hook 3
+    400048: Armour Stand hook 30
+    400050: Armour Stand hook 31
+    400052: Armour Stand hook 32
+    400054: Armour Stand hook 33
+    400056: Armour Stand hook 34
+    400058: Armour Stand hook 35
+    400060: Armour Stand hook 4
+    400062: Armour Stand hook 5
+    400064: Armour Stand hook 6
+    400066: Armour Stand hook 7
+    400068: Armour Stand hook 8
+    400070: Armour Stand hook 9
+    400072: Armour Stand Large
+    400074: Armour Stand Large side
+    400076: Armour Stand Large side 1
+    400078: Armour Stand Small
+    400080: Armour Stand Small side
+    400082: Armour Stand Small side 1
+    400084: Axe Stand
+    400086: Base
+    400088: Base 1
+    400090: Base 2
+    400092: Base 3
+    400094: Base 4
+    400096: Chain Link
+    400098: Chain Link 1
+    400100: Chain Link 10
+    400102: Chain Link 100
+    400104: Chain Link 101
+    400106: Chain Link 102
+    400108: Chain Link 103
+    400110: Chain Link 104
+    400112: Chain Link 105
+    400114: Chain Link 106
+    400116: Chain Link 107
+    400118: Chain Link 108
+    400120: Chain Link 109
+    400122: Chain Link 11
+    400124: Chain Link 110
+    400126: Chain Link 111
+    400128: Chain Link 112
+    400130: Chain Link 113
+    400132: Chain Link 114
+    400134: Chain Link 115
+    400136: Chain Link 116
+    400138: Chain Link 117
+    400140: Chain Link 118
+    400142: Chain Link 119
+    400144: Chain Link 12
+    400146: Chain Link 120
+    400148: Chain Link 121
+    400150: Chain Link 122
+    400152: Chain Link 123
+    400154: Chain Link 124
+    400156: Chain Link 125
+    400158: Chain Link 126
+    400160: Chain Link 127
+    400162: Chain Link 128
+    400164: Chain Link 129
+    400166: Chain Link 13
+    400168: Chain Link 130
+    400170: Chain Link 131
+    400172: Chain Link 132
+    400174: Chain Link 133
+    400176: Chain Link 134
+    400178: Chain Link 135
+    400180: Chain Link 14
+    400182: Chain Link 15
+    400184: Chain Link 16
+    400186: Chain Link 17
+    400188: Chain Link 18
+    400190: Chain Link 19
+    400192: Chain Link 2
+    400194: Chain Link 20
+    400196: Chain Link 21
+    400198: Chain Link 22
+    400200: Chain Link 23
+    400202: Chain Link 24
+    400204: Chain Link 25
+    400206: Chain Link 26
+    400208: Chain Link 27
+    400210: Chain Link 28
+    400212: Chain Link 29
+    400214: Chain Link 3
+    400216: Chain Link 30
+    400218: Chain Link 31
+    400220: Chain Link 32
+    400222: Chain Link 33
+    400224: Chain Link 34
+    400226: Chain Link 35
+    400228: Chain Link 36
+    400230: Chain Link 37
+    400232: Chain Link 38
+    400234: Chain Link 39
+    400236: Chain Link 4
+    400238: Chain Link 40
+    400240: Chain Link 41
+    400242: Chain Link 42
+    400244: Chain Link 43
+    400246: Chain Link 44
+    400248: Chain Link 45
+    400250: Chain Link 46
+    400252: Chain Link 47
+    400254: Chain Link 48
+    400256: Chain Link 49
+    400258: Chain Link 5
+    400260: Chain Link 50
+    400262: Chain Link 51
+    400264: Chain Link 52
+    400266: Chain Link 53
+    400268: Chain Link 54
+    400270: Chain Link 55
+    400272: Chain Link 56
+    400274: Chain Link 57
+    400276: Chain Link 58
+    400278: Chain Link 59
+    400280: Chain Link 6
+    400282: Chain Link 60
+    400284: Chain Link 61
+    400286: Chain Link 62
+    400288: Chain Link 63
+    400290: Chain Link 64
+    400292: Chain Link 65
+    400294: Chain Link 66
+    400296: Chain Link 67
+    400298: Chain Link 68
+    400300: Chain Link 69
+    400302: Chain Link 7
+    400304: Chain Link 70
+    400306: Chain Link 71
+    400308: Chain Link 72
+    400310: Chain Link 73
+    400312: Chain Link 74
+    400314: Chain Link 75
+    400316: Chain Link 76
+    400318: Chain Link 77
+    400320: Chain Link 78
+    400322: Chain Link 79
+    400324: Chain Link 8
+    400326: Chain Link 80
+    400328: Chain Link 81
+    400330: Chain Link 82
+    400332: Chain Link 83
+    400334: Chain Link 84
+    400336: Chain Link 85
+    400338: Chain Link 86
+    400340: Chain Link 87
+    400342: Chain Link 88
+    400344: Chain Link 89
+    400346: Chain Link 9
+    400348: Chain Link 90
+    400350: Chain Link 91
+    400352: Chain Link 92
+    400354: Chain Link 93
+    400356: Chain Link 94
+    400358: Chain Link 95
+    400360: Chain Link 96
+    400362: Chain Link 97
+    400364: Chain Link 98
+    400366: Chain Link 99
+    400368: Coat of arms
+    400370: //RootNode
+    400372: Group 11
+    400374: Group 14
+    400376: Group 142
+    400378: Group 144
+    400380: Group 146
+    400382: Group 148
+    400384: Group 150
+    400386: Group 16
+    400388: Group 189
+    400390: Group 19
+    400392: Group 191
+    400394: Group 193
+    400396: Group 195
+    400398: Group 197
+    400400: Group 199
+    400402: Group 2
+    400404: Group 201
+    400406: Group 203
+    400408: Group 205
+    400410: Group 207
+    400412: Group 209
+    400414: Group 21
+    400416: Group 211
+    400418: Group 213
+    400420: Group 23
+    400422: Group 25
+    400424: Group 27
+    400426: Group 300
+    400428: Group 302
+    400430: Group 304
+    400432: Group 306
+    400434: Group 308
+    400436: Group 319
+    400438: Group 38
+    400440: Group 390
+    400442: Group 4
+    400444: Group 463
+    400446: Group 483
+    400448: Group 485
+    400450: Group 500
+    400452: Group 502
+    400454: Group 517
+    400456: Group 519
+    400458: Group 534
+    400460: Group 536
+    400462: Group 551
+    400464: Group 553
+    400466: Group 568
+    400468: Group 570
+    400470: Group 587
+    400472: Group 589
+    400474: Group 591
+    400476: Group 593
+    400478: Group 595
+    400480: Group 6
+    400482: Group 804
+    400484: Group 806
+    400486: Group 808
+    400488: Group 821
+    400490: Group 823
+    400492: Group 825
+    400494: Group 836
+    400496: Group 838
+    400498: Group 840
+    400500: Group 854
+    400502: Group 871
+    400504: Group 874
+    400506: Group 89
+    400508: Group 891
+    400510: Group 894
+    400512: Group 896
+    400514: Group 898
+    400516: Group 9
+    400518: Group 900
+    400520: Group 905
+    400522: Group 907
+    400524: Group 909
+    400526: Group 911
+    400528: Group 928
+    400530: Group 930
+    400532: Group 932
+    400534: Group 934
+    400536: Poleaxe
+    400538: Poleaxe 1
+    400540: Poleaxe head section
+    400542: Poleaxe head section 1
+    400544: Poleaxe head section 10
+    400546: Poleaxe head section 11
+    400548: Poleaxe head section 12
+    400550: Poleaxe head section 13
+    400552: Poleaxe head section 14
+    400554: Poleaxe head section 15
+    400556: Poleaxe head section 2
+    400558: Poleaxe head section 3
+    400560: Poleaxe head section 4
+    400562: Poleaxe head section 5
+    400564: Poleaxe head section 6
+    400566: Poleaxe head section 7
+    400568: Poleaxe head section 8
+    400570: Poleaxe head section 9
+    400572: Sack Body
+    400574: Sack Body 1
+    400576: Sack body section
+    400578: Sack body section 1
+    400580: Sack body section 10
+    400582: Sack body section 11
+    400584: Sack body section 12
+    400586: Sack body section 13
+    400588: Sack body section 14
+    400590: Sack body section 15
+    400592: Sack body section 2
+    400594: Sack body section 3
+    400596: Sack body section 4
+    400598: Sack body section 5
+    400600: Sack body section 6
+    400602: Sack body section 7
+    400604: Sack body section 8
+    400606: Sack body section 9
+    400608: Sack Large
+    400610: Sack Large 1
+    400612: Sack Large section
+    400614: Sack Large section 1
+    400616: Sack Large section 2
+    400618: Sack Large section 3
+    400620: Sack Large section 4
+    400622: Sack Large section 5
+    400624: Sack Large section 6
+    400626: Sack Large section 7
+    400628: Sack Small
+    400630: Sack Small 1
+    400632: Sack Small 2
+    400634: Sack Small 3
+    400636: Sack Small 4
+    400638: Sack Small Section
+    400640: Sack Small Section 1
+    400642: Sack Small Section 10
+    400644: Sack Small Section 11
+    400646: Sack Small Section 12
+    400648: Sack Small Section 13
+    400650: Sack Small Section 14
+    400652: Sack Small Section 15
+    400654: Sack Small Section 16
+    400656: Sack Small Section 17
+    400658: Sack Small Section 18
+    400660: Sack Small Section 19
+    400662: Sack Small Section 2
+    400664: Sack Small Section 3
+    400666: Sack Small Section 4
+    400668: Sack Small Section 5
+    400670: Sack Small Section 6
+    400672: Sack Small Section 7
+    400674: Sack Small Section 8
+    400676: Sack Small Section 9
+    400678: Sheild part
+    400680: Sheild part 1
+    400682: Sheild part 2
+    400684: Sheild part 3
+    400686: Sheild part strap
+    400688: Sheild part strap 1
+    400690: Sheild part strap 2
+    400692: Sheild part strap 3
+    400694: Shield
+    400696: Shield 1
+    400698: Sword
+    400700: Sword 1
+    400702: Sword 2
+    400704: Sword 3
+    400706: Sword 4
+    400708: Sword 5
+    400710: Sword section
+    400712: Sword section 1
+    400714: Sword section 10
+    400716: Sword section 11
+    400718: Sword section 12
+    400720: Sword section 13
+    400722: Sword section 14
+    400724: Sword section 15
+    400726: Sword section 16
+    400728: Sword section 17
+    400730: Sword section 18
+    400732: Sword section 19
+    400734: Sword section 2
+    400736: Sword section 20
+    400738: Sword section 21
+    400740: Sword section 22
+    400742: Sword section 23
+    400744: Sword section 3
+    400746: Sword section 4
+    400748: Sword section 5
+    400750: Sword section 6
+    400752: Sword section 7
+    400754: Sword section 8
+    400756: Sword section 9
+    400758: Sword section blade
+    400760: Sword section blade 1
+    400762: Sword section blade 10
+    400764: Sword section blade 11
+    400766: Sword section blade 12
+    400768: Sword section blade 13
+    400770: Sword section blade 14
+    400772: Sword section blade 15
+    400774: Sword section blade 16
+    400776: Sword section blade 17
+    400778: Sword section blade 18
+    400780: Sword section blade 19
+    400782: Sword section blade 2
+    400784: Sword section blade 20
+    400786: Sword section blade 21
+    400788: Sword section blade 22
+    400790: Sword section blade 23
+    400792: Sword section blade 3
+    400794: Sword section blade 4
+    400796: Sword section blade 5
+    400798: Sword section blade 6
+    400800: Sword section blade 7
+    400802: Sword section blade 8
+    400804: Sword section blade 9
+    400806: Sword section guard
+    400808: Sword section guard 1
+    400810: Sword section guard 10
+    400812: Sword section guard 11
+    400814: Sword section guard 12
+    400816: Sword section guard 13
+    400818: Sword section guard 14
+    400820: Sword section guard 15
+    400822: Sword section guard 16
+    400824: Sword section guard 17
+    400826: Sword section guard 18
+    400828: Sword section guard 19
+    400830: Sword section guard 2
+    400832: Sword section guard 20
+    400834: Sword section guard 21
+    400836: Sword section guard 22
+    400838: Sword section guard 23
+    400840: Sword section guard 3
+    400842: Sword section guard 4
+    400844: Sword section guard 5
+    400846: Sword section guard 6
+    400848: Sword section guard 7
+    400850: Sword section guard 8
+    400852: Sword section guard 9
+    400854: Sword section hilt
+    400856: Sword section hilt 1
+    400858: Sword section hilt 10
+    400860: Sword section hilt 11
+    400862: Sword section hilt 12
+    400864: Sword section hilt 13
+    400866: Sword section hilt 14
+    400868: Sword section hilt 15
+    400870: Sword section hilt 16
+    400872: Sword section hilt 17
+    400874: Sword section hilt 18
+    400876: Sword section hilt 19
+    400878: Sword section hilt 2
+    400880: Sword section hilt 20
+    400882: Sword section hilt 21
+    400884: Sword section hilt 22
+    400886: Sword section hilt 23
+    400888: Sword section hilt 3
+    400890: Sword section hilt 4
+    400892: Sword section hilt 5
+    400894: Sword section hilt 6
+    400896: Sword section hilt 7
+    400898: Sword section hilt 8
+    400900: Sword section hilt 9
+    400902: Sword section pommel
+    400904: Sword section pommel 1
+    400906: Sword section pommel 10
+    400908: Sword section pommel 11
+    400910: Sword section pommel 12
+    400912: Sword section pommel 13
+    400914: Sword section pommel 14
+    400916: Sword section pommel 15
+    400918: Sword section pommel 16
+    400920: Sword section pommel 17
+    400922: Sword section pommel 18
+    400924: Sword section pommel 19
+    400926: Sword section pommel 2
+    400928: Sword section pommel 20
+    400930: Sword section pommel 21
+    400932: Sword section pommel 22
+    400934: Sword section pommel 23
+    400936: Sword section pommel 3
+    400938: Sword section pommel 4
+    400940: Sword section pommel 5
+    400942: Sword section pommel 6
+    400944: Sword section pommel 7
+    400946: Sword section pommel 8
+    400948: Sword section pommel 9
+    400950: 'Swords stand '
+    400952: Target
+    400954: Target Strut
+    400956: Target Strut 1
+    400958: Training Dummy Armed
+    400960: Training Dummy Basic
+    400962: Training Dummy Body
+    400964: Training Dummy Body target
+    400966: Training Dummy Body target 1
+    400968: Training Dummy bracing
+    400970: Training Dummy bracing 1
+    400972: Training Dummy bracing 10
+    400974: Training Dummy bracing 11
+    400976: Training Dummy bracing 12
+    400978: Training Dummy bracing 13
+    400980: Training Dummy bracing 14
+    400982: Training Dummy bracing 15
+    400984: Training Dummy bracing 16
+    400986: Training Dummy bracing 17
+    400988: Training Dummy bracing 18
+    400990: Training Dummy bracing 19
+    400992: Training Dummy bracing 2
+    400994: Training Dummy bracing 20
+    400996: Training Dummy bracing 21
+    400998: Training Dummy bracing 22
+    401000: Training Dummy bracing 23
+    401002: Training Dummy bracing 24
+    401004: Training Dummy bracing 25
+    401006: Training Dummy bracing 3
+    401008: Training Dummy bracing 4
+    401010: Training Dummy bracing 5
+    401012: Training Dummy bracing 6
+    401014: Training Dummy bracing 7
+    401016: Training Dummy bracing 8
+    401018: Training Dummy bracing 9
+    401020: Training Dummy Chains
+    401022: Training Dummy Chains arm
+    401024: Training Dummy Chains arm 1
+    401026: Training Dummy Chains arm 2
+    401028: Training Dummy Chains arm 3
+    401030: Training Dummy Chains arm 4
+    401032: Training Dummy Chains arm 5
+    401034: Training Dummy Head
+    401036: Training Dummy Head target
+    401038: Training Dummy Head target 1
+    401040: Training Dummy Stand
+    2300000: Armour Stand hook
+    2300002: Armour Stand hook 1
+    2300004: Armour Stand hook 10
+    2300006: Armour Stand hook 11
+    2300008: Armour Stand hook 12
+    2300010: Armour Stand hook 13
+    2300012: Armour Stand hook 14
+    2300014: Armour Stand hook 15
+    2300016: Armour Stand hook 16
+    2300018: Armour Stand hook 17
+    2300020: Armour Stand hook 18
+    2300022: Armour Stand hook 19
+    2300024: Armour Stand hook 2
+    2300026: Armour Stand hook 20
+    2300028: Armour Stand hook 21
+    2300030: Armour Stand hook 22
+    2300032: Armour Stand hook 23
+    2300034: Armour Stand hook 24
+    2300036: Armour Stand hook 25
+    2300038: Armour Stand hook 26
+    2300040: Armour Stand hook 27
+    2300042: Armour Stand hook 28
+    2300044: Armour Stand hook 29
+    2300046: Armour Stand hook 3
+    2300048: Armour Stand hook 30
+    2300050: Armour Stand hook 31
+    2300052: Armour Stand hook 32
+    2300054: Armour Stand hook 33
+    2300056: Armour Stand hook 34
+    2300058: Armour Stand hook 35
+    2300060: Armour Stand hook 4
+    2300062: Armour Stand hook 5
+    2300064: Armour Stand hook 6
+    2300066: Armour Stand hook 7
+    2300068: Armour Stand hook 8
+    2300070: Armour Stand hook 9
+    2300072: Base
+    2300074: Base 1
+    2300076: Base 2
+    2300078: Base 3
+    2300080: Base 4
+    2300082: Chain Link
+    2300084: Chain Link 1
+    2300086: Chain Link 10
+    2300088: Chain Link 100
+    2300090: Chain Link 101
+    2300092: Chain Link 102
+    2300094: Chain Link 103
+    2300096: Chain Link 104
+    2300098: Chain Link 105
+    2300100: Chain Link 106
+    2300102: Chain Link 107
+    2300104: Chain Link 108
+    2300106: Chain Link 109
+    2300108: Chain Link 11
+    2300110: Chain Link 110
+    2300112: Chain Link 111
+    2300114: Chain Link 112
+    2300116: Chain Link 113
+    2300118: Chain Link 114
+    2300120: Chain Link 115
+    2300122: Chain Link 116
+    2300124: Chain Link 117
+    2300126: Chain Link 118
+    2300128: Chain Link 119
+    2300130: Chain Link 12
+    2300132: Chain Link 120
+    2300134: Chain Link 121
+    2300136: Chain Link 122
+    2300138: Chain Link 123
+    2300140: Chain Link 124
+    2300142: Chain Link 125
+    2300144: Chain Link 126
+    2300146: Chain Link 127
+    2300148: Chain Link 128
+    2300150: Chain Link 129
+    2300152: Chain Link 13
+    2300154: Chain Link 130
+    2300156: Chain Link 131
+    2300158: Chain Link 132
+    2300160: Chain Link 133
+    2300162: Chain Link 134
+    2300164: Chain Link 135
+    2300166: Chain Link 14
+    2300168: Chain Link 15
+    2300170: Chain Link 16
+    2300172: Chain Link 17
+    2300174: Chain Link 18
+    2300176: Chain Link 19
+    2300178: Chain Link 2
+    2300180: Chain Link 20
+    2300182: Chain Link 21
+    2300184: Chain Link 22
+    2300186: Chain Link 23
+    2300188: Chain Link 24
+    2300190: Chain Link 25
+    2300192: Chain Link 26
+    2300194: Chain Link 27
+    2300196: Chain Link 28
+    2300198: Chain Link 29
+    2300200: Chain Link 3
+    2300202: Chain Link 30
+    2300204: Chain Link 31
+    2300206: Chain Link 32
+    2300208: Chain Link 33
+    2300210: Chain Link 34
+    2300212: Chain Link 35
+    2300214: Chain Link 36
+    2300216: Chain Link 37
+    2300218: Chain Link 38
+    2300220: Chain Link 39
+    2300222: Chain Link 4
+    2300224: Chain Link 40
+    2300226: Chain Link 41
+    2300228: Chain Link 42
+    2300230: Chain Link 43
+    2300232: Chain Link 44
+    2300234: Chain Link 45
+    2300236: Chain Link 46
+    2300238: Chain Link 47
+    2300240: Chain Link 48
+    2300242: Chain Link 49
+    2300244: Chain Link 5
+    2300246: Chain Link 50
+    2300248: Chain Link 51
+    2300250: Chain Link 52
+    2300252: Chain Link 53
+    2300254: Chain Link 54
+    2300256: Chain Link 55
+    2300258: Chain Link 56
+    2300260: Chain Link 57
+    2300262: Chain Link 58
+    2300264: Chain Link 59
+    2300266: Chain Link 6
+    2300268: Chain Link 60
+    2300270: Chain Link 61
+    2300272: Chain Link 62
+    2300274: Chain Link 63
+    2300276: Chain Link 64
+    2300278: Chain Link 65
+    2300280: Chain Link 66
+    2300282: Chain Link 67
+    2300284: Chain Link 68
+    2300286: Chain Link 69
+    2300288: Chain Link 7
+    2300290: Chain Link 70
+    2300292: Chain Link 71
+    2300294: Chain Link 72
+    2300296: Chain Link 73
+    2300298: Chain Link 74
+    2300300: Chain Link 75
+    2300302: Chain Link 76
+    2300304: Chain Link 77
+    2300306: Chain Link 78
+    2300308: Chain Link 79
+    2300310: Chain Link 8
+    2300312: Chain Link 80
+    2300314: Chain Link 81
+    2300316: Chain Link 82
+    2300318: Chain Link 83
+    2300320: Chain Link 84
+    2300322: Chain Link 85
+    2300324: Chain Link 86
+    2300326: Chain Link 87
+    2300328: Chain Link 88
+    2300330: Chain Link 89
+    2300332: Chain Link 9
+    2300334: Chain Link 90
+    2300336: Chain Link 91
+    2300338: Chain Link 92
+    2300340: Chain Link 93
+    2300342: Chain Link 94
+    2300344: Chain Link 95
+    2300346: Chain Link 96
+    2300348: Chain Link 97
+    2300350: Chain Link 98
+    2300352: Chain Link 99
+    2300354: Group 11
+    2300356: Group 14
+    2300358: Group 142
+    2300360: Group 144
+    2300362: Group 146
+    2300364: Group 148
+    2300366: Group 150
+    2300368: Group 16
+    2300370: Group 189
+    2300372: Group 19
+    2300374: Group 191
+    2300376: Group 193
+    2300378: Group 195
+    2300380: Group 197
+    2300382: Group 199
+    2300384: Group 2
+    2300386: Group 201
+    2300388: Group 203
+    2300390: Group 205
+    2300392: Group 207
+    2300394: Group 209
+    2300396: Group 21
+    2300398: Group 211
+    2300400: Group 213
+    2300402: Group 23
+    2300404: Group 25
+    2300406: Group 27
+    2300408: Group 300
+    2300410: Group 302
+    2300412: Group 304
+    2300414: Group 306
+    2300416: Group 308
+    2300418: Group 4
+    2300420: Group 463
+    2300422: Group 483
+    2300424: Group 485
+    2300426: Group 500
+    2300428: Group 502
+    2300430: Group 517
+    2300432: Group 519
+    2300434: Group 534
+    2300436: Group 536
+    2300438: Group 551
+    2300440: Group 553
+    2300442: Group 568
+    2300444: Group 570
+    2300446: Group 587
+    2300448: Group 589
+    2300450: Group 591
+    2300452: Group 593
+    2300454: Group 595
+    2300456: Group 6
+    2300458: Group 804
+    2300460: Group 806
+    2300462: Group 808
+    2300464: Group 821
+    2300466: Group 823
+    2300468: Group 825
+    2300470: Group 836
+    2300472: Group 838
+    2300474: Group 840
+    2300476: Group 871
+    2300478: Group 891
+    2300480: Group 894
+    2300482: Group 896
+    2300484: Group 898
+    2300486: Group 9
+    2300488: Group 900
+    2300490: Group 905
+    2300492: Group 907
+    2300494: Group 909
+    2300496: Group 911
+    2300498: Group 928
+    2300500: Group 930
+    2300502: Group 932
+    2300504: Group 934
+    2300506: Poleaxe head section
+    2300508: Poleaxe head section 1
+    2300510: Poleaxe head section 10
+    2300512: Poleaxe head section 11
+    2300514: Poleaxe head section 12
+    2300516: Poleaxe head section 13
+    2300518: Poleaxe head section 14
+    2300520: Poleaxe head section 15
+    2300522: Poleaxe head section 2
+    2300524: Poleaxe head section 3
+    2300526: Poleaxe head section 4
+    2300528: Poleaxe head section 5
+    2300530: Poleaxe head section 6
+    2300532: Poleaxe head section 7
+    2300534: Poleaxe head section 8
+    2300536: Poleaxe head section 9
+    2300538: Sack body section
+    2300540: Sack body section 1
+    2300542: Sack body section 10
+    2300544: Sack body section 11
+    2300546: Sack body section 12
+    2300548: Sack body section 13
+    2300550: Sack body section 14
+    2300552: Sack body section 15
+    2300554: Sack body section 2
+    2300556: Sack body section 3
+    2300558: Sack body section 4
+    2300560: Sack body section 5
+    2300562: Sack body section 6
+    2300564: Sack body section 7
+    2300566: Sack body section 8
+    2300568: Sack body section 9
+    2300570: Sack Large section
+    2300572: Sack Large section 1
+    2300574: Sack Large section 2
+    2300576: Sack Large section 3
+    2300578: Sack Large section 4
+    2300580: Sack Large section 5
+    2300582: Sack Large section 6
+    2300584: Sack Large section 7
+    2300586: Sack Small Section
+    2300588: Sack Small Section 1
+    2300590: Sack Small Section 10
+    2300592: Sack Small Section 11
+    2300594: Sack Small Section 12
+    2300596: Sack Small Section 13
+    2300598: Sack Small Section 14
+    2300600: Sack Small Section 15
+    2300602: Sack Small Section 16
+    2300604: Sack Small Section 17
+    2300606: Sack Small Section 18
+    2300608: Sack Small Section 19
+    2300610: Sack Small Section 2
+    2300612: Sack Small Section 3
+    2300614: Sack Small Section 4
+    2300616: Sack Small Section 5
+    2300618: Sack Small Section 6
+    2300620: Sack Small Section 7
+    2300622: Sack Small Section 8
+    2300624: Sack Small Section 9
+    2300626: Sheild part
+    2300628: Sheild part 1
+    2300630: Sheild part 2
+    2300632: Sheild part 3
+    2300634: Sheild part strap
+    2300636: Sheild part strap 1
+    2300638: Sheild part strap 2
+    2300640: Sheild part strap 3
+    2300642: Sword section blade
+    2300644: Sword section blade 1
+    2300646: Sword section blade 10
+    2300648: Sword section blade 11
+    2300650: Sword section blade 12
+    2300652: Sword section blade 13
+    2300654: Sword section blade 14
+    2300656: Sword section blade 15
+    2300658: Sword section blade 16
+    2300660: Sword section blade 17
+    2300662: Sword section blade 18
+    2300664: Sword section blade 19
+    2300666: Sword section blade 2
+    2300668: Sword section blade 20
+    2300670: Sword section blade 21
+    2300672: Sword section blade 22
+    2300674: Sword section blade 23
+    2300676: Sword section blade 3
+    2300678: Sword section blade 4
+    2300680: Sword section blade 5
+    2300682: Sword section blade 6
+    2300684: Sword section blade 7
+    2300686: Sword section blade 8
+    2300688: Sword section blade 9
+    2300690: Sword section guard
+    2300692: Sword section guard 1
+    2300694: Sword section guard 10
+    2300696: Sword section guard 11
+    2300698: Sword section guard 12
+    2300700: Sword section guard 13
+    2300702: Sword section guard 14
+    2300704: Sword section guard 15
+    2300706: Sword section guard 16
+    2300708: Sword section guard 17
+    2300710: Sword section guard 18
+    2300712: Sword section guard 19
+    2300714: Sword section guard 2
+    2300716: Sword section guard 20
+    2300718: Sword section guard 21
+    2300720: Sword section guard 22
+    2300722: Sword section guard 23
+    2300724: Sword section guard 3
+    2300726: Sword section guard 4
+    2300728: Sword section guard 5
+    2300730: Sword section guard 6
+    2300732: Sword section guard 7
+    2300734: Sword section guard 8
+    2300736: Sword section guard 9
+    2300738: Sword section hilt
+    2300740: Sword section hilt 1
+    2300742: Sword section hilt 10
+    2300744: Sword section hilt 11
+    2300746: Sword section hilt 12
+    2300748: Sword section hilt 13
+    2300750: Sword section hilt 14
+    2300752: Sword section hilt 15
+    2300754: Sword section hilt 16
+    2300756: Sword section hilt 17
+    2300758: Sword section hilt 18
+    2300760: Sword section hilt 19
+    2300762: Sword section hilt 2
+    2300764: Sword section hilt 20
+    2300766: Sword section hilt 21
+    2300768: Sword section hilt 22
+    2300770: Sword section hilt 23
+    2300772: Sword section hilt 3
+    2300774: Sword section hilt 4
+    2300776: Sword section hilt 5
+    2300778: Sword section hilt 6
+    2300780: Sword section hilt 7
+    2300782: Sword section hilt 8
+    2300784: Sword section hilt 9
+    2300786: Sword section pommel
+    2300788: Sword section pommel 1
+    2300790: Sword section pommel 10
+    2300792: Sword section pommel 11
+    2300794: Sword section pommel 12
+    2300796: Sword section pommel 13
+    2300798: Sword section pommel 14
+    2300800: Sword section pommel 15
+    2300802: Sword section pommel 16
+    2300804: Sword section pommel 17
+    2300806: Sword section pommel 18
+    2300808: Sword section pommel 19
+    2300810: Sword section pommel 2
+    2300812: Sword section pommel 20
+    2300814: Sword section pommel 21
+    2300816: Sword section pommel 22
+    2300818: Sword section pommel 23
+    2300820: Sword section pommel 3
+    2300822: Sword section pommel 4
+    2300824: Sword section pommel 5
+    2300826: Sword section pommel 6
+    2300828: Sword section pommel 7
+    2300830: Sword section pommel 8
+    2300832: Sword section pommel 9
+    2300834: Training Dummy bracing
+    2300836: Training Dummy bracing 1
+    2300838: Training Dummy bracing 10
+    2300840: Training Dummy bracing 11
+    2300842: Training Dummy bracing 12
+    2300844: Training Dummy bracing 13
+    2300846: Training Dummy bracing 14
+    2300848: Training Dummy bracing 15
+    2300850: Training Dummy bracing 16
+    2300852: Training Dummy bracing 17
+    2300854: Training Dummy bracing 18
+    2300856: Training Dummy bracing 19
+    2300858: Training Dummy bracing 2
+    2300860: Training Dummy bracing 20
+    2300862: Training Dummy bracing 21
+    2300864: Training Dummy bracing 22
+    2300866: Training Dummy bracing 23
+    2300868: Training Dummy bracing 24
+    2300870: Training Dummy bracing 25
+    2300872: Training Dummy bracing 3
+    2300874: Training Dummy bracing 4
+    2300876: Training Dummy bracing 5
+    2300878: Training Dummy bracing 6
+    2300880: Training Dummy bracing 7
+    2300882: Training Dummy bracing 8
+    2300884: Training Dummy bracing 9
+    3300000: Armour Stand hook
+    3300002: Armour Stand hook 1
+    3300004: Armour Stand hook 10
+    3300006: Armour Stand hook 11
+    3300008: Armour Stand hook 12
+    3300010: Armour Stand hook 13
+    3300012: Armour Stand hook 14
+    3300014: Armour Stand hook 15
+    3300016: Armour Stand hook 16
+    3300018: Armour Stand hook 17
+    3300020: Armour Stand hook 18
+    3300022: Armour Stand hook 19
+    3300024: Armour Stand hook 2
+    3300026: Armour Stand hook 20
+    3300028: Armour Stand hook 21
+    3300030: Armour Stand hook 22
+    3300032: Armour Stand hook 23
+    3300034: Armour Stand hook 24
+    3300036: Armour Stand hook 25
+    3300038: Armour Stand hook 26
+    3300040: Armour Stand hook 27
+    3300042: Armour Stand hook 28
+    3300044: Armour Stand hook 29
+    3300046: Armour Stand hook 3
+    3300048: Armour Stand hook 30
+    3300050: Armour Stand hook 31
+    3300052: Armour Stand hook 32
+    3300054: Armour Stand hook 33
+    3300056: Armour Stand hook 34
+    3300058: Armour Stand hook 35
+    3300060: Armour Stand hook 4
+    3300062: Armour Stand hook 5
+    3300064: Armour Stand hook 6
+    3300066: Armour Stand hook 7
+    3300068: Armour Stand hook 8
+    3300070: Armour Stand hook 9
+    3300072: Base
+    3300074: Base 1
+    3300076: Base 2
+    3300078: Base 3
+    3300080: Base 4
+    3300082: Chain Link
+    3300084: Chain Link 1
+    3300086: Chain Link 10
+    3300088: Chain Link 100
+    3300090: Chain Link 101
+    3300092: Chain Link 102
+    3300094: Chain Link 103
+    3300096: Chain Link 104
+    3300098: Chain Link 105
+    3300100: Chain Link 106
+    3300102: Chain Link 107
+    3300104: Chain Link 108
+    3300106: Chain Link 109
+    3300108: Chain Link 11
+    3300110: Chain Link 110
+    3300112: Chain Link 111
+    3300114: Chain Link 112
+    3300116: Chain Link 113
+    3300118: Chain Link 114
+    3300120: Chain Link 115
+    3300122: Chain Link 116
+    3300124: Chain Link 117
+    3300126: Chain Link 118
+    3300128: Chain Link 119
+    3300130: Chain Link 12
+    3300132: Chain Link 120
+    3300134: Chain Link 121
+    3300136: Chain Link 122
+    3300138: Chain Link 123
+    3300140: Chain Link 124
+    3300142: Chain Link 125
+    3300144: Chain Link 126
+    3300146: Chain Link 127
+    3300148: Chain Link 128
+    3300150: Chain Link 129
+    3300152: Chain Link 13
+    3300154: Chain Link 130
+    3300156: Chain Link 131
+    3300158: Chain Link 132
+    3300160: Chain Link 133
+    3300162: Chain Link 134
+    3300164: Chain Link 135
+    3300166: Chain Link 14
+    3300168: Chain Link 15
+    3300170: Chain Link 16
+    3300172: Chain Link 17
+    3300174: Chain Link 18
+    3300176: Chain Link 19
+    3300178: Chain Link 2
+    3300180: Chain Link 20
+    3300182: Chain Link 21
+    3300184: Chain Link 22
+    3300186: Chain Link 23
+    3300188: Chain Link 24
+    3300190: Chain Link 25
+    3300192: Chain Link 26
+    3300194: Chain Link 27
+    3300196: Chain Link 28
+    3300198: Chain Link 29
+    3300200: Chain Link 3
+    3300202: Chain Link 30
+    3300204: Chain Link 31
+    3300206: Chain Link 32
+    3300208: Chain Link 33
+    3300210: Chain Link 34
+    3300212: Chain Link 35
+    3300214: Chain Link 36
+    3300216: Chain Link 37
+    3300218: Chain Link 38
+    3300220: Chain Link 39
+    3300222: Chain Link 4
+    3300224: Chain Link 40
+    3300226: Chain Link 41
+    3300228: Chain Link 42
+    3300230: Chain Link 43
+    3300232: Chain Link 44
+    3300234: Chain Link 45
+    3300236: Chain Link 46
+    3300238: Chain Link 47
+    3300240: Chain Link 48
+    3300242: Chain Link 49
+    3300244: Chain Link 5
+    3300246: Chain Link 50
+    3300248: Chain Link 51
+    3300250: Chain Link 52
+    3300252: Chain Link 53
+    3300254: Chain Link 54
+    3300256: Chain Link 55
+    3300258: Chain Link 56
+    3300260: Chain Link 57
+    3300262: Chain Link 58
+    3300264: Chain Link 59
+    3300266: Chain Link 6
+    3300268: Chain Link 60
+    3300270: Chain Link 61
+    3300272: Chain Link 62
+    3300274: Chain Link 63
+    3300276: Chain Link 64
+    3300278: Chain Link 65
+    3300280: Chain Link 66
+    3300282: Chain Link 67
+    3300284: Chain Link 68
+    3300286: Chain Link 69
+    3300288: Chain Link 7
+    3300290: Chain Link 70
+    3300292: Chain Link 71
+    3300294: Chain Link 72
+    3300296: Chain Link 73
+    3300298: Chain Link 74
+    3300300: Chain Link 75
+    3300302: Chain Link 76
+    3300304: Chain Link 77
+    3300306: Chain Link 78
+    3300308: Chain Link 79
+    3300310: Chain Link 8
+    3300312: Chain Link 80
+    3300314: Chain Link 81
+    3300316: Chain Link 82
+    3300318: Chain Link 83
+    3300320: Chain Link 84
+    3300322: Chain Link 85
+    3300324: Chain Link 86
+    3300326: Chain Link 87
+    3300328: Chain Link 88
+    3300330: Chain Link 89
+    3300332: Chain Link 9
+    3300334: Chain Link 90
+    3300336: Chain Link 91
+    3300338: Chain Link 92
+    3300340: Chain Link 93
+    3300342: Chain Link 94
+    3300344: Chain Link 95
+    3300346: Chain Link 96
+    3300348: Chain Link 97
+    3300350: Chain Link 98
+    3300352: Chain Link 99
+    3300354: Group 11
+    3300356: Group 14
+    3300358: Group 142
+    3300360: Group 144
+    3300362: Group 146
+    3300364: Group 148
+    3300366: Group 150
+    3300368: Group 16
+    3300370: Group 189
+    3300372: Group 19
+    3300374: Group 191
+    3300376: Group 193
+    3300378: Group 195
+    3300380: Group 197
+    3300382: Group 199
+    3300384: Group 2
+    3300386: Group 201
+    3300388: Group 203
+    3300390: Group 205
+    3300392: Group 207
+    3300394: Group 209
+    3300396: Group 21
+    3300398: Group 211
+    3300400: Group 213
+    3300402: Group 23
+    3300404: Group 25
+    3300406: Group 27
+    3300408: Group 300
+    3300410: Group 302
+    3300412: Group 304
+    3300414: Group 306
+    3300416: Group 308
+    3300418: Group 4
+    3300420: Group 463
+    3300422: Group 483
+    3300424: Group 485
+    3300426: Group 500
+    3300428: Group 502
+    3300430: Group 517
+    3300432: Group 519
+    3300434: Group 534
+    3300436: Group 536
+    3300438: Group 551
+    3300440: Group 553
+    3300442: Group 568
+    3300444: Group 570
+    3300446: Group 587
+    3300448: Group 589
+    3300450: Group 591
+    3300452: Group 593
+    3300454: Group 595
+    3300456: Group 6
+    3300458: Group 804
+    3300460: Group 806
+    3300462: Group 808
+    3300464: Group 821
+    3300466: Group 823
+    3300468: Group 825
+    3300470: Group 836
+    3300472: Group 838
+    3300474: Group 840
+    3300476: Group 871
+    3300478: Group 891
+    3300480: Group 894
+    3300482: Group 896
+    3300484: Group 898
+    3300486: Group 9
+    3300488: Group 900
+    3300490: Group 905
+    3300492: Group 907
+    3300494: Group 909
+    3300496: Group 911
+    3300498: Group 928
+    3300500: Group 930
+    3300502: Group 932
+    3300504: Group 934
+    3300506: Poleaxe head section
+    3300508: Poleaxe head section 1
+    3300510: Poleaxe head section 10
+    3300512: Poleaxe head section 11
+    3300514: Poleaxe head section 12
+    3300516: Poleaxe head section 13
+    3300518: Poleaxe head section 14
+    3300520: Poleaxe head section 15
+    3300522: Poleaxe head section 2
+    3300524: Poleaxe head section 3
+    3300526: Poleaxe head section 4
+    3300528: Poleaxe head section 5
+    3300530: Poleaxe head section 6
+    3300532: Poleaxe head section 7
+    3300534: Poleaxe head section 8
+    3300536: Poleaxe head section 9
+    3300538: Sack body section
+    3300540: Sack body section 1
+    3300542: Sack body section 10
+    3300544: Sack body section 11
+    3300546: Sack body section 12
+    3300548: Sack body section 13
+    3300550: Sack body section 14
+    3300552: Sack body section 15
+    3300554: Sack body section 2
+    3300556: Sack body section 3
+    3300558: Sack body section 4
+    3300560: Sack body section 5
+    3300562: Sack body section 6
+    3300564: Sack body section 7
+    3300566: Sack body section 8
+    3300568: Sack body section 9
+    3300570: Sack Large section
+    3300572: Sack Large section 1
+    3300574: Sack Large section 2
+    3300576: Sack Large section 3
+    3300578: Sack Large section 4
+    3300580: Sack Large section 5
+    3300582: Sack Large section 6
+    3300584: Sack Large section 7
+    3300586: Sack Small Section
+    3300588: Sack Small Section 1
+    3300590: Sack Small Section 10
+    3300592: Sack Small Section 11
+    3300594: Sack Small Section 12
+    3300596: Sack Small Section 13
+    3300598: Sack Small Section 14
+    3300600: Sack Small Section 15
+    3300602: Sack Small Section 16
+    3300604: Sack Small Section 17
+    3300606: Sack Small Section 18
+    3300608: Sack Small Section 19
+    3300610: Sack Small Section 2
+    3300612: Sack Small Section 3
+    3300614: Sack Small Section 4
+    3300616: Sack Small Section 5
+    3300618: Sack Small Section 6
+    3300620: Sack Small Section 7
+    3300622: Sack Small Section 8
+    3300624: Sack Small Section 9
+    3300626: Sheild part
+    3300628: Sheild part 1
+    3300630: Sheild part 2
+    3300632: Sheild part 3
+    3300634: Sheild part strap
+    3300636: Sheild part strap 1
+    3300638: Sheild part strap 2
+    3300640: Sheild part strap 3
+    3300642: Sword section blade
+    3300644: Sword section blade 1
+    3300646: Sword section blade 10
+    3300648: Sword section blade 11
+    3300650: Sword section blade 12
+    3300652: Sword section blade 13
+    3300654: Sword section blade 14
+    3300656: Sword section blade 15
+    3300658: Sword section blade 16
+    3300660: Sword section blade 17
+    3300662: Sword section blade 18
+    3300664: Sword section blade 19
+    3300666: Sword section blade 2
+    3300668: Sword section blade 20
+    3300670: Sword section blade 21
+    3300672: Sword section blade 22
+    3300674: Sword section blade 23
+    3300676: Sword section blade 3
+    3300678: Sword section blade 4
+    3300680: Sword section blade 5
+    3300682: Sword section blade 6
+    3300684: Sword section blade 7
+    3300686: Sword section blade 8
+    3300688: Sword section blade 9
+    3300690: Sword section guard
+    3300692: Sword section guard 1
+    3300694: Sword section guard 10
+    3300696: Sword section guard 11
+    3300698: Sword section guard 12
+    3300700: Sword section guard 13
+    3300702: Sword section guard 14
+    3300704: Sword section guard 15
+    3300706: Sword section guard 16
+    3300708: Sword section guard 17
+    3300710: Sword section guard 18
+    3300712: Sword section guard 19
+    3300714: Sword section guard 2
+    3300716: Sword section guard 20
+    3300718: Sword section guard 21
+    3300720: Sword section guard 22
+    3300722: Sword section guard 23
+    3300724: Sword section guard 3
+    3300726: Sword section guard 4
+    3300728: Sword section guard 5
+    3300730: Sword section guard 6
+    3300732: Sword section guard 7
+    3300734: Sword section guard 8
+    3300736: Sword section guard 9
+    3300738: Sword section hilt
+    3300740: Sword section hilt 1
+    3300742: Sword section hilt 10
+    3300744: Sword section hilt 11
+    3300746: Sword section hilt 12
+    3300748: Sword section hilt 13
+    3300750: Sword section hilt 14
+    3300752: Sword section hilt 15
+    3300754: Sword section hilt 16
+    3300756: Sword section hilt 17
+    3300758: Sword section hilt 18
+    3300760: Sword section hilt 19
+    3300762: Sword section hilt 2
+    3300764: Sword section hilt 20
+    3300766: Sword section hilt 21
+    3300768: Sword section hilt 22
+    3300770: Sword section hilt 23
+    3300772: Sword section hilt 3
+    3300774: Sword section hilt 4
+    3300776: Sword section hilt 5
+    3300778: Sword section hilt 6
+    3300780: Sword section hilt 7
+    3300782: Sword section hilt 8
+    3300784: Sword section hilt 9
+    3300786: Sword section pommel
+    3300788: Sword section pommel 1
+    3300790: Sword section pommel 10
+    3300792: Sword section pommel 11
+    3300794: Sword section pommel 12
+    3300796: Sword section pommel 13
+    3300798: Sword section pommel 14
+    3300800: Sword section pommel 15
+    3300802: Sword section pommel 16
+    3300804: Sword section pommel 17
+    3300806: Sword section pommel 18
+    3300808: Sword section pommel 19
+    3300810: Sword section pommel 2
+    3300812: Sword section pommel 20
+    3300814: Sword section pommel 21
+    3300816: Sword section pommel 22
+    3300818: Sword section pommel 23
+    3300820: Sword section pommel 3
+    3300822: Sword section pommel 4
+    3300824: Sword section pommel 5
+    3300826: Sword section pommel 6
+    3300828: Sword section pommel 7
+    3300830: Sword section pommel 8
+    3300832: Sword section pommel 9
+    3300834: Training Dummy bracing
+    3300836: Training Dummy bracing 1
+    3300838: Training Dummy bracing 10
+    3300840: Training Dummy bracing 11
+    3300842: Training Dummy bracing 12
+    3300844: Training Dummy bracing 13
+    3300846: Training Dummy bracing 14
+    3300848: Training Dummy bracing 15
+    3300850: Training Dummy bracing 16
+    3300852: Training Dummy bracing 17
+    3300854: Training Dummy bracing 18
+    3300856: Training Dummy bracing 19
+    3300858: Training Dummy bracing 2
+    3300860: Training Dummy bracing 20
+    3300862: Training Dummy bracing 21
+    3300864: Training Dummy bracing 22
+    3300866: Training Dummy bracing 23
+    3300868: Training Dummy bracing 24
+    3300870: Training Dummy bracing 25
+    3300872: Training Dummy bracing 3
+    3300874: Training Dummy bracing 4
+    3300876: Training Dummy bracing 5
+    3300878: Training Dummy bracing 6
+    3300880: Training Dummy bracing 7
+    3300882: Training Dummy bracing 8
+    3300884: Training Dummy bracing 9
+    4300000: Mesh Group 2
+    4300002: Mesh Group 4
+    4300004: Mesh Group 6
+    4300006: Mesh Group 9
+    4300008: Mesh Group 11
+    4300010: Mesh Group 19
+    4300012: Mesh Group 21
+    4300014: Mesh Group 23
+    4300016: Mesh Group 25
+    4300018: Mesh Training Dummy bracing
+    4300020: Mesh Chain Link
+    4300022: Mesh Sack Small Section
+    4300024: Mesh Base
+    4300026: Mesh Group 142
+    4300028: Mesh Group 144
+    4300030: Mesh Group 146
+    4300032: Mesh Group 148
+    4300034: Mesh Group 150
+    4300036: Mesh Sack body section
+    4300038: Mesh Sack body section
+    4300040: Mesh Group 189
+    4300042: Mesh Group 191
+    4300044: Mesh Group 193
+    4300046: Mesh Group 195
+    4300048: Mesh Group 197
+    4300050: Mesh Group 199
+    4300052: Mesh Group 201
+    4300054: Mesh Group 203
+    4300056: Mesh Group 205
+    4300058: Mesh Group 207
+    4300060: Mesh Group 209
+    4300062: Mesh Group 211
+    4300064: Mesh Sheild part
+    4300066: Mesh Sheild part strap
+    4300068: Mesh Sword section guard
+    4300070: Mesh Sword section hilt
+    4300072: Mesh Sword section blade
+    4300074: Mesh Sword section pommel
+    4300076: Mesh Sack Large section
+    4300078: Mesh Group 483
+    4300080: Mesh Group 485
+    4300082: Mesh Group 589
+    4300084: Mesh Group 591
+    4300086: Mesh Group 595
+    4300088: Mesh Sheild part
+    4300090: Mesh Sheild part strap
+    4300092: Mesh Group 804
+    4300094: Mesh Group 806
+    4300096: Mesh Group 808
+    4300098: Mesh Armour Stand hook
+    4300100: Mesh Armour Stand hook
+    4300102: Mesh Group 821
+    4300104: Mesh Group 823
+    4300106: Mesh Group 825
+    4300108: Mesh Poleaxe head section
+    4300110: Mesh Group 871
+    4300112: Mesh Group 900
+    4300114: Mesh Group 907
+    4300116: Mesh Group 909
+    4300118: Mesh Group 911
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 0135_DarkGray
+    second: {fileID: 2100000, guid: a0b88d57d0e5dfd48b27885feead4e3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carpet_Loop_Pattern
+    second: {fileID: 2100000, guid: d9b679fc059862f4f9f5b6c2c4a23cd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Coins
+    second: {fileID: 2100000, guid: 63c1b64cc3248d84d95159ead870e3a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A06
+    second: {fileID: 2100000, guid: 7474518160f404f47aaac2d61dc08a4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_D02
+    second: {fileID: 2100000, guid: 8a86c761c07ca2540a7073150ba6d567, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_D22
+    second: {fileID: 2100000, guid: 24011e43f5aff8e4ebd2f156f9399131, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groundcover_Sand_Raked
+    second: {fileID: 2100000, guid: a3cc2e2f633bcce488447af32fcbf15f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groundcover_Wood_Mix
+    second: {fileID: 2100000, guid: d300a61f006ba7242a07f9a109df53c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ironmongary
+    second: {fileID: 2100000, guid: e6b15c62a22549b4c8ef50ea20791c2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steve_Hair
+    second: {fileID: 2100000, guid: 812d7952d20cbda4594f163fb0d0344b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone_Brushed_Khaki
+    second: {fileID: 2100000, guid: 12c3b6647f35152498a90b8099d638b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Lumber_ButtJoined
+    second: {fileID: 2100000, guid: 12def7db13498ea4885092718f5cb967, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: d06ee025db003ee499c5a1c1a0ecdcce, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

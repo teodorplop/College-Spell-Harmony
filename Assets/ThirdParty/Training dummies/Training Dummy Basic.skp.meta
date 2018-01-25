@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: 786a0ecfbda317e4db36f6522ef2bbb3
+timeCreated: 1516824947
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 48e71a7c5c01cd223269c517e68227b5
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -0.5214827, y: 3.6040297, z: 6.336392}
+      lookAt: {x: 0.40181524, y: 1.2854244, z: -0.074567154}
+      up: {x: 0.04804244, y: 0.9414952, z: -0.33358473}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Base
+    100002: Group 1
+    100004: Group 3
+    100006: Group 5
+    100008: Group 7
+    100010: Group 9
+    100012: Sack Body
+    100014: Sack body section
+    100016: Sack body section 1
+    100018: Sack body section 2
+    100020: Sack body section 3
+    100022: Sack body section 4
+    100024: Sack body section 5
+    100026: Sack body section 6
+    100028: Sack body section 7
+    100030: Sack Small
+    100032: Sack Small Section
+    100034: Sack Small Section 1
+    100036: Sack Small Section 2
+    100038: Sack Small Section 3
+    100040: //RootNode
+    100042: Training Dummy bracing
+    100044: Training Dummy bracing 1
+    100046: Training Dummy bracing 2
+    100048: Training Dummy bracing 3
+    400000: Base
+    400002: Group 1
+    400004: Group 3
+    400006: Group 5
+    400008: Group 7
+    400010: Group 9
+    400012: Sack Body
+    400014: Sack body section
+    400016: Sack body section 1
+    400018: Sack body section 2
+    400020: Sack body section 3
+    400022: Sack body section 4
+    400024: Sack body section 5
+    400026: Sack body section 6
+    400028: Sack body section 7
+    400030: Sack Small
+    400032: Sack Small Section
+    400034: Sack Small Section 1
+    400036: Sack Small Section 2
+    400038: Sack Small Section 3
+    400040: //RootNode
+    400042: Training Dummy bracing
+    400044: Training Dummy bracing 1
+    400046: Training Dummy bracing 2
+    400048: Training Dummy bracing 3
+    2300000: Base
+    2300002: Group 1
+    2300004: Group 3
+    2300006: Group 5
+    2300008: Group 7
+    2300010: Group 9
+    2300012: Sack body section
+    2300014: Sack body section 1
+    2300016: Sack body section 2
+    2300018: Sack body section 3
+    2300020: Sack body section 4
+    2300022: Sack body section 5
+    2300024: Sack body section 6
+    2300026: Sack body section 7
+    2300028: Sack Small Section
+    2300030: Sack Small Section 1
+    2300032: Sack Small Section 2
+    2300034: Sack Small Section 3
+    2300036: Training Dummy bracing
+    2300038: Training Dummy bracing 1
+    2300040: Training Dummy bracing 2
+    2300042: Training Dummy bracing 3
+    3300000: Base
+    3300002: Group 1
+    3300004: Group 3
+    3300006: Group 5
+    3300008: Group 7
+    3300010: Group 9
+    3300012: Sack body section
+    3300014: Sack body section 1
+    3300016: Sack body section 2
+    3300018: Sack body section 3
+    3300020: Sack body section 4
+    3300022: Sack body section 5
+    3300024: Sack body section 6
+    3300026: Sack body section 7
+    3300028: Sack Small Section
+    3300030: Sack Small Section 1
+    3300032: Sack Small Section 2
+    3300034: Sack Small Section 3
+    3300036: Training Dummy bracing
+    3300038: Training Dummy bracing 1
+    3300040: Training Dummy bracing 2
+    3300042: Training Dummy bracing 3
+    4300000: Mesh Group 1
+    4300002: Mesh Group 3
+    4300004: Mesh Group 5
+    4300006: Mesh Group 7
+    4300008: Mesh Group 9
+    4300010: Mesh Sack Small Section
+    4300012: Mesh Training Dummy bracing
+    4300014: Mesh Base
+    4300016: Mesh Sack body section
+    4300018: Mesh Sack body section
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carpet_Loop_Pattern
+    second: {fileID: 2100000, guid: d63e9a65d26a3d74b9d6b4fabfe98572, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Coins
+    second: {fileID: 2100000, guid: 36f321836bb7f7b4b8812456f070da42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Lumber_ButtJoined
+    second: {fileID: 2100000, guid: 37be1ac61e55daa40be88a69207d0197, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 6ac4ac652dfc88f4690c10047a60b04f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

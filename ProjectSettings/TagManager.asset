@@ -7,6 +7,8 @@ TagManager:
   - generic_object
   - wall
   - door
+  - Training
+  - Crate
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,314 @@
+fileFormatVersion: 2
+guid: 20a7fbcdeef12df4e95ed4a13ad71e54
+timeCreated: 1516824939
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f00000050000000510000005200000053000000
+  assetHash:
+    serializedVersion: 2
+    Hash: ebdb1acbeb2c2944679ef7927bfc5c65
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -1.0566632, y: 1.980162, z: 2.782756}
+      lookAt: {x: 0.1870556, y: 0.67833173, z: 0.77028817}
+      up: {x: 0.25344983, y: 0.8761131, z: -0.41010854}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Sheild part
+    100004: Sheild part 1
+    100006: Sheild part strap
+    100008: Sheild part strap 1
+    100010: Shield
+    100012: Sword
+    100014: Sword 1
+    100016: Sword section
+    100018: Sword section 1
+    100020: Sword section 2
+    100022: Sword section 3
+    100024: Sword section 4
+    100026: Sword section 5
+    100028: Sword section 6
+    100030: Sword section 7
+    100032: Sword section blade
+    100034: Sword section blade 1
+    100036: Sword section blade 2
+    100038: Sword section blade 3
+    100040: Sword section blade 4
+    100042: Sword section blade 5
+    100044: Sword section blade 6
+    100046: Sword section blade 7
+    100048: Sword section guard
+    100050: Sword section guard 1
+    100052: Sword section guard 2
+    100054: Sword section guard 3
+    100056: Sword section guard 4
+    100058: Sword section guard 5
+    100060: Sword section guard 6
+    100062: Sword section guard 7
+    100064: Sword section hilt
+    100066: Sword section hilt 1
+    100068: Sword section hilt 2
+    100070: Sword section hilt 3
+    100072: Sword section hilt 4
+    100074: Sword section hilt 5
+    100076: Sword section hilt 6
+    100078: Sword section hilt 7
+    100080: Sword section pommel
+    100082: Sword section pommel 1
+    100084: Sword section pommel 2
+    100086: Sword section pommel 3
+    100088: Sword section pommel 4
+    100090: Sword section pommel 5
+    100092: Sword section pommel 6
+    100094: Sword section pommel 7
+    400000: //RootNode
+    400002: Sheild part
+    400004: Sheild part 1
+    400006: Sheild part strap
+    400008: Sheild part strap 1
+    400010: Shield
+    400012: Sword
+    400014: Sword 1
+    400016: Sword section
+    400018: Sword section 1
+    400020: Sword section 2
+    400022: Sword section 3
+    400024: Sword section 4
+    400026: Sword section 5
+    400028: Sword section 6
+    400030: Sword section 7
+    400032: Sword section blade
+    400034: Sword section blade 1
+    400036: Sword section blade 2
+    400038: Sword section blade 3
+    400040: Sword section blade 4
+    400042: Sword section blade 5
+    400044: Sword section blade 6
+    400046: Sword section blade 7
+    400048: Sword section guard
+    400050: Sword section guard 1
+    400052: Sword section guard 2
+    400054: Sword section guard 3
+    400056: Sword section guard 4
+    400058: Sword section guard 5
+    400060: Sword section guard 6
+    400062: Sword section guard 7
+    400064: Sword section hilt
+    400066: Sword section hilt 1
+    400068: Sword section hilt 2
+    400070: Sword section hilt 3
+    400072: Sword section hilt 4
+    400074: Sword section hilt 5
+    400076: Sword section hilt 6
+    400078: Sword section hilt 7
+    400080: Sword section pommel
+    400082: Sword section pommel 1
+    400084: Sword section pommel 2
+    400086: Sword section pommel 3
+    400088: Sword section pommel 4
+    400090: Sword section pommel 5
+    400092: Sword section pommel 6
+    400094: Sword section pommel 7
+    2300000: Sheild part
+    2300002: Sheild part 1
+    2300004: Sheild part strap
+    2300006: Sheild part strap 1
+    2300008: Sword section blade
+    2300010: Sword section blade 1
+    2300012: Sword section blade 2
+    2300014: Sword section blade 3
+    2300016: Sword section blade 4
+    2300018: Sword section blade 5
+    2300020: Sword section blade 6
+    2300022: Sword section blade 7
+    2300024: Sword section guard
+    2300026: Sword section guard 1
+    2300028: Sword section guard 2
+    2300030: Sword section guard 3
+    2300032: Sword section guard 4
+    2300034: Sword section guard 5
+    2300036: Sword section guard 6
+    2300038: Sword section guard 7
+    2300040: Sword section hilt
+    2300042: Sword section hilt 1
+    2300044: Sword section hilt 2
+    2300046: Sword section hilt 3
+    2300048: Sword section hilt 4
+    2300050: Sword section hilt 5
+    2300052: Sword section hilt 6
+    2300054: Sword section hilt 7
+    2300056: Sword section pommel
+    2300058: Sword section pommel 1
+    2300060: Sword section pommel 2
+    2300062: Sword section pommel 3
+    2300064: Sword section pommel 4
+    2300066: Sword section pommel 5
+    2300068: Sword section pommel 6
+    2300070: Sword section pommel 7
+    3300000: Sheild part
+    3300002: Sheild part 1
+    3300004: Sheild part strap
+    3300006: Sheild part strap 1
+    3300008: Sword section blade
+    3300010: Sword section blade 1
+    3300012: Sword section blade 2
+    3300014: Sword section blade 3
+    3300016: Sword section blade 4
+    3300018: Sword section blade 5
+    3300020: Sword section blade 6
+    3300022: Sword section blade 7
+    3300024: Sword section guard
+    3300026: Sword section guard 1
+    3300028: Sword section guard 2
+    3300030: Sword section guard 3
+    3300032: Sword section guard 4
+    3300034: Sword section guard 5
+    3300036: Sword section guard 6
+    3300038: Sword section guard 7
+    3300040: Sword section hilt
+    3300042: Sword section hilt 1
+    3300044: Sword section hilt 2
+    3300046: Sword section hilt 3
+    3300048: Sword section hilt 4
+    3300050: Sword section hilt 5
+    3300052: Sword section hilt 6
+    3300054: Sword section hilt 7
+    3300056: Sword section pommel
+    3300058: Sword section pommel 1
+    3300060: Sword section pommel 2
+    3300062: Sword section pommel 3
+    3300064: Sword section pommel 4
+    3300066: Sword section pommel 5
+    3300068: Sword section pommel 6
+    3300070: Sword section pommel 7
+    4300000: Mesh Sheild part
+    4300002: Mesh Sheild part strap
+    4300004: Mesh Sword section guard
+    4300006: Mesh Sword section hilt
+    4300008: Mesh Sword section blade
+    4300010: Mesh Sword section pommel
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 0135_DarkGray
+    second: {fileID: 2100000, guid: ca711ca6e7247d5459efda2e4e53e5c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carpet_Loop_Pattern
+    second: {fileID: 2100000, guid: b935505932d8f6247a346e810d925edc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_A06
+    second: {fileID: 2100000, guid: 95a4d462be059e649a971fcd5fbe81f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ironmongary
+    second: {fileID: 2100000, guid: 157f73b80f6f2144185d2049b61f5f74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steve_Hair
+    second: {fileID: 2100000, guid: 0de26c025fa2656419fc523c04bcfe79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone_Brushed_Khaki
+    second: {fileID: 2100000, guid: c63846c9eb81d244ebf1b407cf544246, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 6abde71c9d4007544a002c2910fe2f3c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

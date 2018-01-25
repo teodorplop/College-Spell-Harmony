@@ -350,6 +350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosion: {fileID: 114971660825929710, guid: 65963524890a66a4189a2815c9ad87bc,
     type: 2}
+  brokenCrate: {fileID: 100020, guid: c5409d6d53ea3774c9379a4e98424e2d, type: 2}
   aliveTime: 5
 --- !u!198 &198023794382870298
 ParticleSystem:

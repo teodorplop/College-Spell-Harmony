@@ -20,18 +20,18 @@ public partial class GameManager {
     void CastSpellsVive()
     {
         Player player = Player.Instance;
-        Vector3 dir = player.GetComponentsInChildren<Camera>()[0].transform.forward;
-        float vect = Input.GetAxis("TrackpadRVertical");
-        Debug.Log("Trackpad " + vect);
+        //Vector3 dir = player.GetComponentsInChildren<Camera>()[0].transform.forward;
+        Vector3 dir = leftController.transform.forward;
 
-        if (Input.GetAxis("TrackpadRVertical") > 0.9f)
+        if (Input.GetAxis("TrackpadLVertical") > 0.9f && Input.GetAxis("TrackpadLPress") != 0)
              spellLauncher.Fireball(cameraHeadTransform, player, dir);
-        else if (Input.GetAxis("GripR") > 0.1f)
-            spellLauncher.Shield(cameraHeadTransform, player);
-      /*  else if (Input.GetKeyUp(KeyCode.Alpha3))
+        else if (Input.GetAxis("TrackpadLHorizontal") > 0.9f && Input.GetAxis("TrackpadLPress") != 0)
             spellLauncher.Frostbolt(player.transform, player, dir);
-        else if (Input.GetKeyUp(KeyCode.Alpha4))
-            spellLauncher.LightingBolt(player.transform, player, dir);*/
+        else if (Input.GetAxis("TrackpadLHorizontal") < - 0.9f && Input.GetAxis("TrackpadLPress") != 0)
+            spellLauncher.LightingBolt(player.transform, player, dir);
+        else if (Input.GetAxis("GripL") > 0.1f)
+            spellLauncher.Shield(cameraHeadTransform, player);
+
     }
 
 }

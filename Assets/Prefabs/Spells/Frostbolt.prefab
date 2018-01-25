@@ -195,6 +195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosion: {fileID: 114748387393137312, guid: 6f8102aa6d147ea47b201fae9170e067,
     type: 2}
+  brokenCrate: {fileID: 100020, guid: c5409d6d53ea3774c9379a4e98424e2d, type: 2}
   aliveTime: 10
 --- !u!198 &198213340604118852
 ParticleSystem:
