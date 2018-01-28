@@ -394,7 +394,7 @@ InputManager:
     descriptiveName: Vive trackpad - left press
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: 
+    positiveButton: joystick button 8
     altNegativeButton: 
     altPositiveButton: joystick button 1
     gravity: 1000
@@ -402,6 +402,6 @@ InputManager:
     sensitivity: 1000
     snap: 0
     invert: 0
-    type: 2
+    type: 0
     axis: 7
     joyNum: 0

@@ -21,7 +21,7 @@ public class LaserPointer : MonoBehaviour {
 
     private GameObject gameObjectHit;
 
-    private SteamVR_Controller.Device Controller {
+    public SteamVR_Controller.Device Controller {
         get { return SteamVR_Controller.Input((int)trackedObj.index); }
     }
 
