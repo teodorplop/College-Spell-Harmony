@@ -281,6 +281,7 @@ MonoBehaviour:
   explosion: {fileID: 114206125784992718, guid: 23ca86fb051cb104ea04eeb6cf6d51ff,
     type: 2}
   brokenCrate: {fileID: 0}
+  damage: 10
   aliveTime: 10
 --- !u!198 &198003247689285570
 ParticleSystem:

@@ -420,7 +420,7 @@ MonoBehaviour:
   effectName: Burn
   effectDuration: 5
   ticks: 3
-  damagePerTick: 2
+  damagePerTick: 5
 --- !u!198 &198179324347002686
 ParticleSystem:
   m_ObjectHideFlags: 1

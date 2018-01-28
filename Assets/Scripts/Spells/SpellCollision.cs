@@ -3,6 +3,7 @@
 public class SpellCollision : MonoBehaviour {
     public SpellEffect explosion;
     public GameObject brokenCrate;
+	public float damage;
 	[SerializeField] private float aliveTime = 10.0f;
 
 	private ICombatUnit caster;
@@ -38,8 +39,10 @@ public class SpellCollision : MonoBehaviour {
 
 		if (combatUnit == null || combatUnit == caster) return;
 
-		if (caster.CanAttack(combatUnit))
+		if (caster.CanAttack(combatUnit) && !combatUnit.IsDead) {
+			combatUnit.ApplyDamage(damage);
 			combatUnit.ApplyEffect(explosion);
+		}
 
         Destroy(transform.parent.gameObject); // not the best, but works for these effects
     }

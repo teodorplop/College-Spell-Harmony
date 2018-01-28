@@ -19,8 +19,9 @@ public class QuestManager {
 	public QuestManager() {
 		quests = new List<string>() {
 			"Head into the main hall \n Press 1-4 to test the spells.",
-			"Enter the training room",
-			"Press T to start or stop training"
+			"Enter the training room.",
+			"Press T to reset training room. When ready, head back outside.",
+			"Go find the ice portal and use it! Doh..."
 		};
 	}
 
@@ -32,11 +33,17 @@ public class QuestManager {
 		}
 	}
 	public void EnterTrainingRoom() {
-		//if (questIdx == 1) {
+		if (questIdx == 1) {
 			EventManager.Raise(new QuestCompleted(1));
-			questIdx = 2;
-			//++questIdx;
-		//}
+			++questIdx;
+		}
+	}
+
+	public void HeadBackOutside() {
+		if (questIdx == 2) {
+			EventManager.Raise(new QuestCompleted(2));
+			++questIdx;
+		}
 	}
 
 	public string GetQuest(int id) {
