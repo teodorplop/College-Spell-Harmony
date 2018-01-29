@@ -6,6 +6,9 @@ public class Portal : MonoBehaviour, IInteractable {
 
 	public bool enableInteraction { get; set; }
 
+	public delegate void onInteract();
+	public event onInteract OnInteractEvent;
+
 	public string interactionString {
 		get { return "STR_INTERACTABLE_PORTAL"; }
 	}
@@ -13,5 +16,6 @@ public class Portal : MonoBehaviour, IInteractable {
 	public void OnInteract() {
 		if (sceneLoaded == "") return;
 		SceneLoader.Load(sceneLoaded);
+		if (OnInteractEvent != null) OnInteractEvent();
 	}
 }

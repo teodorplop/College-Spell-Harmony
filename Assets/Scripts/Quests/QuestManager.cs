@@ -21,7 +21,10 @@ public class QuestManager {
 			"Head into the main hall \n Press 1-4 to test the spells.",
 			"Enter the training room.",
 			"Press T to reset training room. When ready, head back outside.",
-			"Go find the ice portal and use it! Doh..."
+			"Go find the ice portal and use it! Doh...",
+			"Defeat monsters on the stairs down.",
+			"Use the portal to get back into Poli.",
+			"Great! Now have fun."
 		};
 	}
 
@@ -42,6 +45,27 @@ public class QuestManager {
 	public void HeadBackOutside() {
 		if (questIdx == 2) {
 			EventManager.Raise(new QuestCompleted(2));
+			++questIdx;
+		}
+	}
+
+	public void IcePortal() {
+		if (questIdx == 3) {
+			EventManager.Raise(new QuestCompleted(3));
+			++questIdx;
+		}
+	}
+
+	public void MonstersKilled() {
+		if (questIdx == 4) {
+			EventManager.Raise(new QuestCompleted(4));
+			++questIdx;
+		}
+	}
+
+	public void BackToPoli() {
+		if (questIdx == 5) {
+			EventManager.Raise(new QuestCompleted(5));
 			++questIdx;
 		}
 	}
