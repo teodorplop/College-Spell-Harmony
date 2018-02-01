@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 82838701900176950}
   m_Layer: 0
   m_Name: ElectricSpark
-  m_TagString: Untagged
+  m_TagString: Spark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 199135524907727514}
   m_Layer: 0
   m_Name: electric
-  m_TagString: Untagged
+  m_TagString: Spark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60,7 +60,7 @@ GameObject:
   - component: {fileID: 114064298775782846}
   m_Layer: 0
   m_Name: electric
-  m_TagString: Untagged
+  m_TagString: Spark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 108948819329474570}
   m_Layer: 0
   m_Name: point light
-  m_TagString: Untagged
+  m_TagString: Spark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -21,7 +21,7 @@ public class SpellCollision : MonoBehaviour {
 
     public void OnParticleCollision(GameObject other) {
 
-        if (other.tag.Equals("Crate"))
+        if (other.tag.Equals("Crate") && !tag.Equals("Spark"))
         {
             Destroy(other);
             Instantiate(brokenCrate, other.transform.position, other.transform.rotation);

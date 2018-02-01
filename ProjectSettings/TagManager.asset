@@ -9,6 +9,7 @@ TagManager:
   - door
   - Training
   - Crate
+  - Spark
   layers:
   - Default
   - TransparentFX
