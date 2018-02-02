@@ -88,5 +88,12 @@ public class LaserPointer : MonoBehaviour {
             if (scr != null)
                 scr.Triggered();
         }
+
+        if (Controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger))
+        {
+            Portal portal = gameObjectHit.GetComponent<Portal>();
+            if (portal != null)
+                portal.OnInteract();
+        }
     }
 }

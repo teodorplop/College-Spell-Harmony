@@ -10,6 +10,7 @@ TagManager:
   - Training
   - Crate
   - Spark
+  - Canvas
   layers:
   - Default
   - TransparentFX

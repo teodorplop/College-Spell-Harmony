@@ -17,6 +17,7 @@ public partial class GameManager : StateMachineBase {
 	[SerializeField] private SpellLauncher spellLauncher;
 
 	private UIManager uiManager;
+    private Canvas canvas;
 
 	protected override void Awake() {
 		base.Awake();
@@ -26,11 +27,15 @@ public partial class GameManager : StateMachineBase {
 		ManageSave();
 
 		uiManager = FindObjectOfType<UIManager>();
+
 		if (uiManager == null) {
 			AsyncOperation loadUI = SceneManager.LoadSceneAsync("UI", LoadSceneMode.Additive);
 			while (!loadUI.isDone) yield return null;
 			uiManager = FindObjectOfType<UIManager>();
-		}
+            canvas = FindObjectOfType<Canvas>();
+        }
+        if (vrEnabled)
+            canvas.renderMode = RenderMode.WorldSpace;
 
 		SetState(vrEnabled ? GameState.ViveDefault : GameState.Default);
 	}
