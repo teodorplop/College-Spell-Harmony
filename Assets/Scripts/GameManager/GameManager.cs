@@ -34,8 +34,8 @@ public partial class GameManager : StateMachineBase {
 			uiManager = FindObjectOfType<UIManager>();
             canvas = FindObjectOfType<Canvas>();
         }
-        if (vrEnabled)
-            canvas.renderMode = RenderMode.WorldSpace;
+      //  if (vrEnabled)
+        //    canvas.renderMode = RenderMode.WorldSpace;
 
 		SetState(vrEnabled ? GameState.ViveDefault : GameState.Default);
 	}

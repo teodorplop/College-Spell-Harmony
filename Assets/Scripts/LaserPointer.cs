@@ -19,6 +19,8 @@ public class LaserPointer : MonoBehaviour {
     public LayerMask teleportMask;
     private bool shouldTeleport;
 
+    public Player vivePlayer;
+
     private GameObject gameObjectHit;
 
     public SteamVR_Controller.Device Controller {
@@ -57,7 +59,8 @@ public class LaserPointer : MonoBehaviour {
         reticle.SetActive(false);
         Vector3 difference = cameraRigTransform.position - headTransform.position;
         difference.y = 0;
-        cameraRigTransform.position = hitPoint + difference;
+        //cameraRigTransform.position = hitPoint + difference;
+        vivePlayer.transform.position  = hitPoint + difference;
     }
 
     void Update() {
@@ -83,17 +86,32 @@ public class LaserPointer : MonoBehaviour {
             Teleport();
         }
 
-        if (Controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger)) {
-            AnimationHandlerScript scr = gameObjectHit.GetComponent<AnimationHandlerScript>();
-            if (scr != null)
-                scr.Triggered();
+        try
+        {
+            if (Controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger))
+            {
+                AnimationHandlerScript scr = gameObjectHit.GetComponent<AnimationHandlerScript>();
+                if (scr != null)
+                    scr.Triggered();
+            }
+        }
+        catch (System.Exception e)
+        {
+            Debug.Log("Oh well");
         }
 
-        if (Controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger))
+        try
         {
-            Portal portal = gameObjectHit.GetComponent<Portal>();
-            if (portal != null)
-                portal.OnInteract();
+            if (Controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger))
+            {
+                Portal portal = gameObjectHit.GetComponent<Portal>();
+                if (portal != null)
+                    portal.OnInteract();
+            }
+        }
+        catch (System.Exception e)
+        {
+            Debug.Log("Oh well");
         }
     }
 }
