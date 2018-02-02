@@ -34,8 +34,14 @@ public partial class GameManager : StateMachineBase {
 			uiManager = FindObjectOfType<UIManager>();
             canvas = FindObjectOfType<Canvas>();
         }
-      //  if (vrEnabled)
-        //    canvas.renderMode = RenderMode.WorldSpace;
+
+        if (vrEnabled)
+        {
+            canvas.renderMode = RenderMode.WorldSpace;
+            canvas.transform.position = new Vector3(vivePlayer.transform.position.x, vivePlayer.transform.position.y, vivePlayer.transform.position.z);
+            RectTransform rt = canvas.GetComponentInChildren<RectTransform>();
+            rt.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+        }
 
 		SetState(vrEnabled ? GameState.ViveDefault : GameState.Default);
 	}
@@ -48,13 +54,15 @@ public partial class GameManager : StateMachineBase {
 	private void ManageVR() {
 		if (vrEnabled) {
 			DestroyImmediate(player);
-			vivePlayer.gameObject.SetActive(true);
-			Strings.Initialize("Strings_VR");
-		} else {
+            vivePlayer.gameObject.SetActive(true);
+            Strings.Initialize("Strings_VR");
+
+        } else {
 			DestroyImmediate(vivePlayer);
 			player.gameObject.SetActive(true);
 			Strings.Initialize("Strings_PC");
-		}
+
+        }
 	}
 
 	private void ManageSave() {

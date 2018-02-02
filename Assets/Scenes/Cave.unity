@@ -88,6 +88,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 0
 --- !u!196 &5
@@ -125,7 +126,7 @@ GameObject:
   - component: {fileID: 6196626}
   - component: {fileID: 6196625}
   - component: {fileID: 6196624}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (16)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -244,7 +245,7 @@ GameObject:
   - component: {fileID: 15313427}
   - component: {fileID: 15313426}
   - component: {fileID: 15313425}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (35)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -363,7 +364,7 @@ GameObject:
   - component: {fileID: 43096221}
   - component: {fileID: 43096220}
   - component: {fileID: 43096219}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (10)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -482,7 +483,7 @@ GameObject:
   - component: {fileID: 60049509}
   - component: {fileID: 60049508}
   - component: {fileID: 60049507}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (13)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -601,7 +602,7 @@ GameObject:
   - component: {fileID: 65047004}
   - component: {fileID: 65047003}
   - component: {fileID: 65047002}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (5)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -718,7 +719,7 @@ GameObject:
   - component: {fileID: 65370029}
   - component: {fileID: 65370028}
   - component: {fileID: 65370027}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock2_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -809,7 +810,7 @@ GameObject:
   - component: {fileID: 76558667}
   - component: {fileID: 76558666}
   - component: {fileID: 76558665}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (34)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -928,7 +929,7 @@ GameObject:
   - component: {fileID: 77552049}
   - component: {fileID: 77552048}
   - component: {fileID: 77552047}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (20)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -1077,7 +1078,7 @@ GameObject:
   - component: {fileID: 103139304}
   - component: {fileID: 103139303}
   - component: {fileID: 103139307}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -1196,7 +1197,7 @@ GameObject:
   - component: {fileID: 108941377}
   - component: {fileID: 108941376}
   - component: {fileID: 108941375}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (19)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -1315,7 +1316,7 @@ GameObject:
   - component: {fileID: 131651795}
   - component: {fileID: 131651794}
   - component: {fileID: 131651793}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (43)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -1521,7 +1522,7 @@ GameObject:
   - component: {fileID: 187931409}
   - component: {fileID: 187931408}
   - component: {fileID: 187931407}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (32)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -1637,7 +1638,7 @@ GameObject:
   - component: {fileID: 189071331}
   - component: {fileID: 189071330}
   - component: {fileID: 189071329}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: plant1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1713,7 +1714,7 @@ GameObject:
   - component: {fileID: 219890571}
   - component: {fileID: 219890570}
   - component: {fileID: 219890569}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (39)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -1828,7 +1829,7 @@ GameObject:
   m_Component:
   - component: {fileID: 220079740}
   - component: {fileID: 220079741}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1926,7 +1927,7 @@ GameObject:
   - component: {fileID: 245127603}
   - component: {fileID: 245127602}
   - component: {fileID: 245127601}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (17)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -2068,7 +2069,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 266498571}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: smallrocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2136,7 +2137,7 @@ GameObject:
   - component: {fileID: 317926575}
   - component: {fileID: 317926574}
   - component: {fileID: 317926573}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (33)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -2283,7 +2284,7 @@ GameObject:
   - component: {fileID: 350609651}
   - component: {fileID: 350609650}
   - component: {fileID: 350609649}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (15)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -2537,7 +2538,7 @@ GameObject:
   - component: {fileID: 364260390}
   - component: {fileID: 364260389}
   - component: {fileID: 364260388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2626,7 +2627,7 @@ GameObject:
   - component: {fileID: 373368758}
   - component: {fileID: 373368757}
   - component: {fileID: 373368756}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2775,7 +2776,7 @@ GameObject:
   - component: {fileID: 456772972}
   - component: {fileID: 456772971}
   - component: {fileID: 456772970}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (3)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -2891,7 +2892,7 @@ GameObject:
   - component: {fileID: 459656731}
   - component: {fileID: 459656730}
   - component: {fileID: 459656729}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: plant1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3024,7 +3025,7 @@ GameObject:
   - component: {fileID: 490754381}
   - component: {fileID: 490754380}
   - component: {fileID: 490754379}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (45)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -3140,7 +3141,7 @@ GameObject:
   - component: {fileID: 507325771}
   - component: {fileID: 507325770}
   - component: {fileID: 507325769}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: plant1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3211,7 +3212,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 509055164}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cobwebs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3487,7 +3488,7 @@ GameObject:
   - component: {fileID: 552369305}
   - component: {fileID: 552369304}
   - component: {fileID: 552369303}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (8)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -3606,7 +3607,7 @@ GameObject:
   - component: {fileID: 570914413}
   - component: {fileID: 570914412}
   - component: {fileID: 570914411}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (26)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -3752,7 +3753,7 @@ GameObject:
   - component: {fileID: 581380747}
   - component: {fileID: 581380746}
   - component: {fileID: 581380745}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock2_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3843,7 +3844,7 @@ GameObject:
   - component: {fileID: 594817789}
   - component: {fileID: 594817788}
   - component: {fileID: 594817787}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (23)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -4105,7 +4106,7 @@ GameObject:
   - component: {fileID: 610605206}
   - component: {fileID: 610605205}
   - component: {fileID: 610605204}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: stalagtite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4226,7 +4227,7 @@ GameObject:
   - component: {fileID: 635749440}
   - component: {fileID: 635749439}
   - component: {fileID: 635749438}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (44)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -4345,7 +4346,7 @@ GameObject:
   - component: {fileID: 638189926}
   - component: {fileID: 638189925}
   - component: {fileID: 638189924}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (27)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -4521,7 +4522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 677224943}
   - component: {fileID: 677224944}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4589,7 +4590,7 @@ GameObject:
   - component: {fileID: 701672486}
   - component: {fileID: 701672485}
   - component: {fileID: 701672484}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4736,7 +4737,7 @@ GameObject:
   - component: {fileID: 748058224}
   - component: {fileID: 748058223}
   - component: {fileID: 748058222}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: stalagtite_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4847,19 +4848,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1041530593}
+    m_TransformParent: {fileID: 1328032453}
     m_Modifications:
     - target: {fileID: 400000, guid: 5e9dfadd264625543977c21e97f514c0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.010742903
+      value: 10.153748
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9dfadd264625543977c21e97f514c0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0110614225
+      value: -1.7471423
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9dfadd264625543977c21e97f514c0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.029947681
+      value: 10.029231
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9dfadd264625543977c21e97f514c0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4879,7 +4880,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9dfadd264625543977c21e97f514c0, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 81
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: 5e9dfadd264625543977c21e97f514c0, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4931,15 +4932,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9dfadd264625543977c21e97f514c0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.01
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9dfadd264625543977c21e97f514c0, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.01
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9dfadd264625543977c21e97f514c0, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.01
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5e9dfadd264625543977c21e97f514c0, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5e9dfadd264625543977c21e97f514c0, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5e9dfadd264625543977c21e97f514c0, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9dfadd264625543977c21e97f514c0, type: 3}
@@ -4954,7 +4967,7 @@ GameObject:
   - component: {fileID: 777613016}
   - component: {fileID: 777613015}
   - component: {fileID: 777613014}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: plant1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5241,7 +5254,7 @@ GameObject:
   - component: {fileID: 802836512}
   - component: {fileID: 802836511}
   - component: {fileID: 802836510}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5431,7 +5444,7 @@ GameObject:
   m_Component:
   - component: {fileID: 877640312}
   - component: {fileID: 877640311}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5499,7 +5512,7 @@ GameObject:
   - component: {fileID: 898574058}
   - component: {fileID: 898574057}
   - component: {fileID: 898574056}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5585,7 +5598,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 900618592}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: smallrocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5622,7 +5635,7 @@ GameObject:
   - component: {fileID: 905631618}
   - component: {fileID: 905631617}
   - component: {fileID: 905631616}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9084,7 +9097,7 @@ GameObject:
   - component: {fileID: 938150921}
   - component: {fileID: 938150920}
   - component: {fileID: 938150919}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9175,7 +9188,7 @@ GameObject:
   - component: {fileID: 947894735}
   - component: {fileID: 947894734}
   - component: {fileID: 947894733}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (6)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -9377,7 +9390,7 @@ GameObject:
   - component: {fileID: 986326968}
   - component: {fileID: 986326967}
   - component: {fileID: 986326966}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock2_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9468,7 +9481,7 @@ GameObject:
   - component: {fileID: 987344068}
   - component: {fileID: 987344067}
   - component: {fileID: 987344066}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (22)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -9617,7 +9630,7 @@ GameObject:
   - component: {fileID: 1010124810}
   - component: {fileID: 1010124809}
   - component: {fileID: 1010124808}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (37)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -9763,7 +9776,7 @@ GameObject:
   - component: {fileID: 1027925550}
   - component: {fileID: 1027925549}
   - component: {fileID: 1027925548}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9851,7 +9864,7 @@ GameObject:
   - component: {fileID: 1034903427}
   - component: {fileID: 1034903426}
   - component: {fileID: 1034903425}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: deadplant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9940,7 +9953,6 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
   - {fileID: 1786220721}
-  - {fileID: 1689039486}
   - {fileID: 1328032453}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -9958,7 +9970,7 @@ GameObject:
   - component: {fileID: 1059038278}
   - component: {fileID: 1059038277}
   - component: {fileID: 1059038276}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10077,7 +10089,7 @@ GameObject:
   - component: {fileID: 1076581865}
   - component: {fileID: 1076581864}
   - component: {fileID: 1076581863}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (4)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -10193,7 +10205,7 @@ GameObject:
   - component: {fileID: 1079677062}
   - component: {fileID: 1079677064}
   - component: {fileID: 1079677063}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: deadplant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10355,7 +10367,7 @@ GameObject:
   - component: {fileID: 1109791633}
   - component: {fileID: 1109791632}
   - component: {fileID: 1109791631}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (25)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -10474,7 +10486,7 @@ GameObject:
   - component: {fileID: 1110185539}
   - component: {fileID: 1110185538}
   - component: {fileID: 1110185537}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (53)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -10697,7 +10709,7 @@ GameObject:
   - component: {fileID: 1138289188}
   - component: {fileID: 1138289187}
   - component: {fileID: 1138289186}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (30)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -10845,7 +10857,7 @@ GameObject:
   - component: {fileID: 1156374109}
   - component: {fileID: 1156374108}
   - component: {fileID: 1156374107}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (47)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -11104,7 +11116,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1165402113}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: smallrocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11174,7 +11186,7 @@ GameObject:
   - component: {fileID: 1187508666}
   - component: {fileID: 1187508665}
   - component: {fileID: 1187508664}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (31)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -11325,7 +11337,7 @@ GameObject:
   - component: {fileID: 1208792807}
   - component: {fileID: 1208792809}
   - component: {fileID: 1208792808}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cobwebceilcorner1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11401,7 +11413,7 @@ GameObject:
   - component: {fileID: 1209105009}
   - component: {fileID: 1209105008}
   - component: {fileID: 1209105007}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (21)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -11520,7 +11532,7 @@ GameObject:
   - component: {fileID: 1212481672}
   - component: {fileID: 1212481671}
   - component: {fileID: 1212481670}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (29)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -11637,7 +11649,7 @@ GameObject:
   - component: {fileID: 1217692362}
   - component: {fileID: 1217692361}
   - component: {fileID: 1217692360}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11755,7 +11767,7 @@ GameObject:
   - component: {fileID: 1234412422}
   - component: {fileID: 1234412421}
   - component: {fileID: 1234412420}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11844,7 +11856,7 @@ GameObject:
   - component: {fileID: 1246554209}
   - component: {fileID: 1246554208}
   - component: {fileID: 1246554207}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11935,7 +11947,7 @@ GameObject:
   - component: {fileID: 1275851761}
   - component: {fileID: 1275851760}
   - component: {fileID: 1275851759}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (11)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -12052,7 +12064,7 @@ GameObject:
   - component: {fileID: 1278229833}
   - component: {fileID: 1278229832}
   - component: {fileID: 1278229831}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: stalagtite_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12143,7 +12155,7 @@ GameObject:
   - component: {fileID: 1279583332}
   - component: {fileID: 1279583331}
   - component: {fileID: 1279583330}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (40)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -12258,7 +12270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1282752177}
   - component: {fileID: 1282752176}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12328,7 +12340,7 @@ GameObject:
   - component: {fileID: 1306156324}
   - component: {fileID: 1306156323}
   - component: {fileID: 1306156322}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (52)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -12493,7 +12505,7 @@ GameObject:
   - component: {fileID: 1325534364}
   - component: {fileID: 1325534363}
   - component: {fileID: 1325534362}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (41)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -12612,7 +12624,7 @@ GameObject:
   - component: {fileID: 1328032450}
   - component: {fileID: 1328032454}
   - component: {fileID: 1328032455}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cave1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12768,8 +12780,9 @@ Transform:
   - {fileID: 1306156321}
   - {fileID: 1110185536}
   - {fileID: 1977691005}
+  - {fileID: 1689039486}
   m_Father: {fileID: 1041530593}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1328032454
 AudioSource:
@@ -12887,7 +12900,7 @@ GameObject:
   - component: {fileID: 1334954281}
   - component: {fileID: 1334954280}
   - component: {fileID: 1334954279}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock3_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12978,7 +12991,7 @@ GameObject:
   - component: {fileID: 1347929542}
   - component: {fileID: 1347929541}
   - component: {fileID: 1347929540}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (42)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -13093,7 +13106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1350613465}
   - component: {fileID: 1350613466}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13150,6 +13163,134 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!43 &1366664194
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 24
+    topology: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0, y: 0.01, z: 0}
+      m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 13
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 288
+    _typelessdata: 0000c03f0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0.01, z: 0}
+    m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0
 --- !u!1 &1383853332
 GameObject:
   m_ObjectHideFlags: 0
@@ -13159,7 +13300,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1383853334}
   - component: {fileID: 1383853333}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13226,7 +13367,7 @@ GameObject:
   - component: {fileID: 1403981121}
   - component: {fileID: 1403981120}
   - component: {fileID: 1403981119}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: deadplant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13300,7 +13441,7 @@ GameObject:
   - component: {fileID: 1409050928}
   - component: {fileID: 1409050927}
   - component: {fileID: 1409050926}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13391,7 +13532,7 @@ GameObject:
   - component: {fileID: 1410939712}
   - component: {fileID: 1410939711}
   - component: {fileID: 1410939710}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (50)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -13508,7 +13649,7 @@ GameObject:
   - component: {fileID: 1423567114}
   - component: {fileID: 1423567113}
   - component: {fileID: 1423567112}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13637,6 +13778,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 27ee3b22d1bbc304e856cb1f21666e94, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 27ee3b22d1bbc304e856cb1f21666e94, type: 3}
   m_IsPrefabParent: 0
@@ -13682,7 +13827,7 @@ GameObject:
   - component: {fileID: 1434658878}
   - component: {fileID: 1434658877}
   - component: {fileID: 1434658876}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (24)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -13879,7 +14024,7 @@ GameObject:
   - component: {fileID: 1461592353}
   - component: {fileID: 1461592352}
   - component: {fileID: 1461592351}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock2_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13998,7 +14143,7 @@ GameObject:
   - component: {fileID: 1471798280}
   - component: {fileID: 1471798279}
   - component: {fileID: 1471798278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14144,7 +14289,7 @@ GameObject:
   - component: {fileID: 1472834960}
   - component: {fileID: 1472834959}
   - component: {fileID: 1472834958}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14232,7 +14377,7 @@ GameObject:
   - component: {fileID: 1482207142}
   - component: {fileID: 1482207141}
   - component: {fileID: 1482207140}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17638,7 +17783,7 @@ GameObject:
   - component: {fileID: 1499755121}
   - component: {fileID: 1499755120}
   - component: {fileID: 1499755119}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (1)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -17757,7 +17902,7 @@ GameObject:
   - component: {fileID: 1504824615}
   - component: {fileID: 1504824614}
   - component: {fileID: 1504824613}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (46)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -17957,7 +18102,7 @@ GameObject:
   - component: {fileID: 1515539126}
   - component: {fileID: 1515539125}
   - component: {fileID: 1515539124}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: plant1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18124,7 +18269,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1547187812}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: smallrocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18164,7 +18309,7 @@ GameObject:
   - component: {fileID: 1560083235}
   - component: {fileID: 1560083234}
   - component: {fileID: 1560083233}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (9)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -18280,7 +18425,7 @@ GameObject:
   - component: {fileID: 1567398678}
   - component: {fileID: 1567398680}
   - component: {fileID: 1567398679}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cobwebround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18385,7 +18530,7 @@ GameObject:
   - component: {fileID: 1590529577}
   - component: {fileID: 1590529576}
   - component: {fileID: 1590529575}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (2)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -18504,7 +18649,7 @@ GameObject:
   - component: {fileID: 1597575542}
   - component: {fileID: 1597575541}
   - component: {fileID: 1597575540}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (28)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -18610,6 +18755,39 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1597575538}
   m_Mesh: {fileID: 4300020, guid: ba38847dba7accf4aa8a1125ffee318f, type: 3}
+--- !u!21 &1625465303
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1635701876
 GameObject:
   m_ObjectHideFlags: 0
@@ -18621,7 +18799,7 @@ GameObject:
   - component: {fileID: 1635701880}
   - component: {fileID: 1635701879}
   - component: {fileID: 1635701878}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18739,7 +18917,7 @@ GameObject:
   - component: {fileID: 1648621228}
   - component: {fileID: 1648621227}
   - component: {fileID: 1648621226}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock3_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18830,7 +19008,7 @@ GameObject:
   - component: {fileID: 1661795895}
   - component: {fileID: 1661795894}
   - component: {fileID: 1661795893}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (38)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -19006,7 +19184,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4696150634187858, guid: 58d2fecbcbb6b634cbf3821a6c80d5bb, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 133.3
+      value: 30.934317
       objectReference: {fileID: 0}
     - target: {fileID: 4696150634187858, guid: 58d2fecbcbb6b634cbf3821a6c80d5bb, type: 2}
       propertyPath: m_LocalPosition.y
@@ -19014,27 +19192,41 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4696150634187858, guid: 58d2fecbcbb6b634cbf3821a6c80d5bb, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 95.1
+      value: -13.57533
       objectReference: {fileID: 0}
     - target: {fileID: 4696150634187858, guid: 58d2fecbcbb6b634cbf3821a6c80d5bb, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4696150634187858, guid: 58d2fecbcbb6b634cbf3821a6c80d5bb, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.26218942
+      value: 0.8833235
       objectReference: {fileID: 0}
     - target: {fileID: 4696150634187858, guid: 58d2fecbcbb6b634cbf3821a6c80d5bb, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4696150634187858, guid: 58d2fecbcbb6b634cbf3821a6c80d5bb, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.9650164
+      value: 0.46876404
       objectReference: {fileID: 0}
     - target: {fileID: 4696150634187858, guid: 58d2fecbcbb6b634cbf3821a6c80d5bb, type: 2}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 23217696205112042, guid: 58d2fecbcbb6b634cbf3821a6c80d5bb,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1625465303}
+    - target: {fileID: 33992251036868834, guid: 58d2fecbcbb6b634cbf3821a6c80d5bb,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1366664194}
+    - target: {fileID: 4696150634187858, guid: 58d2fecbcbb6b634cbf3821a6c80d5bb, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 844.092
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 58d2fecbcbb6b634cbf3821a6c80d5bb, type: 2}
@@ -19072,7 +19264,7 @@ GameObject:
   - component: {fileID: 1703213873}
   - component: {fileID: 1703213872}
   - component: {fileID: 1703213871}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock3_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19364,7 +19556,7 @@ GameObject:
   - component: {fileID: 1770660555}
   - component: {fileID: 1770660554}
   - component: {fileID: 1770660553}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (48)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -19481,7 +19673,7 @@ GameObject:
   - component: {fileID: 1776181791}
   - component: {fileID: 1776181790}
   - component: {fileID: 1776181789}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19567,7 +19759,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1783416411}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: stalactites
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19633,7 +19825,7 @@ GameObject:
   - component: {fileID: 1789660679}
   - component: {fileID: 1789660678}
   - component: {fileID: 1789660677}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (7)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -19780,7 +19972,7 @@ GameObject:
   - component: {fileID: 1808093046}
   - component: {fileID: 1808093045}
   - component: {fileID: 1808093044}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -19897,7 +20089,7 @@ GameObject:
   - component: {fileID: 1812361368}
   - component: {fileID: 1812361367}
   - component: {fileID: 1812361366}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19988,7 +20180,7 @@ GameObject:
   - component: {fileID: 1864971534}
   - component: {fileID: 1864971533}
   - component: {fileID: 1864971532}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (14)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -20134,7 +20326,7 @@ GameObject:
   - component: {fileID: 1881806983}
   - component: {fileID: 1881806982}
   - component: {fileID: 1881806981}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20225,7 +20417,7 @@ GameObject:
   - component: {fileID: 1907774370}
   - component: {fileID: 1907774369}
   - component: {fileID: 1907774368}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20417,7 +20609,7 @@ GameObject:
   - component: {fileID: 1977291289}
   - component: {fileID: 1977291288}
   - component: {fileID: 1977291287}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (51)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -20532,7 +20724,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1977691005}
   - component: {fileID: 1977691006}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20599,7 +20791,7 @@ GameObject:
   - component: {fileID: 1987926021}
   - component: {fileID: 1987926023}
   - component: {fileID: 1987926022}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24005,7 +24197,7 @@ GameObject:
   - component: {fileID: 1990607474}
   - component: {fileID: 1990607473}
   - component: {fileID: 1990607472}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (49)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -24124,7 +24316,7 @@ GameObject:
   - component: {fileID: 2010290020}
   - component: {fileID: 2010290019}
   - component: {fileID: 2010290018}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: crate (12)
   m_TagString: Crate
   m_Icon: {fileID: 0}
@@ -24240,7 +24432,7 @@ GameObject:
   - component: {fileID: 2021364283}
   - component: {fileID: 2021364285}
   - component: {fileID: 2021364284}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cobwebceillarge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24313,7 +24505,7 @@ GameObject:
   - component: {fileID: 2040516598}
   - component: {fileID: 2040516600}
   - component: {fileID: 2040516599}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cobwebround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24472,7 +24664,7 @@ GameObject:
   - component: {fileID: 2095611162}
   - component: {fileID: 2095611161}
   - component: {fileID: 2095611160}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24561,7 +24753,7 @@ GameObject:
   - component: {fileID: 2112513402}
   - component: {fileID: 2112513401}
   - component: {fileID: 2112513400}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24706,7 +24898,7 @@ GameObject:
   - component: {fileID: 2132548172}
   - component: {fileID: 2132548174}
   - component: {fileID: 2132548173}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cobwebceilcorner2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
