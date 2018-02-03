@@ -27,6 +27,7 @@ public partial class GameManager : StateMachineBase {
 		ManageSave();
 
 		uiManager = FindObjectOfType<UIManager>();
+        canvas = FindObjectOfType<Canvas>();
 
 		if (uiManager == null) {
 			AsyncOperation loadUI = SceneManager.LoadSceneAsync("UI", LoadSceneMode.Additive);
@@ -35,13 +36,15 @@ public partial class GameManager : StateMachineBase {
             canvas = FindObjectOfType<Canvas>();
         }
 
-        if (vrEnabled)
+        //no time to implement it properly :(
+    /*    if (vrEnabled)
         {
             canvas.renderMode = RenderMode.WorldSpace;
             canvas.transform.position = new Vector3(vivePlayer.transform.position.x, vivePlayer.transform.position.y, vivePlayer.transform.position.z);
             RectTransform rt = canvas.GetComponentInChildren<RectTransform>();
             rt.localScale = new Vector3(0.01f, 0.01f, 0.01f);
         }
+        */
 
 		SetState(vrEnabled ? GameState.ViveDefault : GameState.Default);
 	}

@@ -22,6 +22,7 @@ public class LaserPointer : MonoBehaviour {
     public Player vivePlayer;
 
     private GameObject gameObjectHit;
+    private Portal[] portals;
 
     public SteamVR_Controller.Device Controller {
         get { return SteamVR_Controller.Input((int)trackedObj.index); }
@@ -37,6 +38,8 @@ public class LaserPointer : MonoBehaviour {
         
         reticle = Instantiate(teleportReticlePrefab);
         teleportReticleTransform = reticle.transform;
+
+        portals = FindObjectsOfType<Portal>();
     }
 
     private void ShowLaser(RaycastHit hit) {
@@ -102,12 +105,21 @@ public class LaserPointer : MonoBehaviour {
 
         try
         {
-            if (Controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger))
+            float dist;
+
+            for (int i =0; i<portals.Length; i++)
             {
-                Portal portal = gameObjectHit.GetComponent<Portal>();
-                if (portal != null)
-                    portal.OnInteract();
+                dist = Vector3.Distance(portals[i].transform.position, Player.Instance.transform.position);
+
+                if (Controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger) && dist < 5)
+                {
+                    Portal portal = portals[i];
+                    if (portal != null)
+                        portal.OnInteract();
+                }
             }
+
+
         }
         catch (System.Exception e)
         {
