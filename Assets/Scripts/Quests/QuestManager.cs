@@ -26,7 +26,7 @@ public class QuestManager {
             "Use the portal to get back to Poli.",
             "Go find the ice portal and use it! Doh...",
 			"Defeat monsters on the stairs down.",
-			"Use the portal to get back to Poli.",
+			"Use the portal to get back to Poli - Part 2",
 			"Great! Now have fun."
 		};
 	}
