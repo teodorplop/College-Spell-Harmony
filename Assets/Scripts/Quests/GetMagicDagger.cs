@@ -6,10 +6,11 @@ public class GetMagicDagger : MonoBehaviour {
     void Update()
     {
         float dist = Vector3.Distance(transform.position, Player.Instance.transform.position);
-        if (dist <= 1)
+        if (dist <= 5)
         {
-            Destroy(this);
+            
             QuestManager.Instance.MagicDagger();
+            Destroy(this);
         }
     }
 }

@@ -63,9 +63,15 @@ public class SaveGameManager : MonoBehaviour {
 		File.WriteAllText(savePath, JsonUtility.ToJson(saveGame, true));
 	}
 
+    private bool firstLoad = false;
+
 	public void Load() {
 		if (saveGame == null) return;
-		
+
+        if (firstLoad) return;
+
+        firstLoad = true;
+
 		QuestManager.Instance.Load(saveGame);
 		if (SceneManager.GetActiveScene().name == "UPB") {
 			Player.Instance.transform.position = saveGame.upbPlayerPos;
